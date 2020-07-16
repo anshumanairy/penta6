@@ -1,0 +1,61 @@
+<div class="top-area-bg" data-stellar-background-ratio="0.6"></div>
+<div class="header-top-area">
+    <!--MAINMENU AREA-->
+    <div class="mainmenu-area" id="mainmenu-area">
+        <div class="mainmenu-area-bg"></div>
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="{% url 'index' %}" class="navbar-brand"><img src="/static/img/logo.png" alt="logo"></a>
+                </div>
+                <div class="search-and-language-bar pull-right">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-user"></i></a></li>
+                        <li class="search-box"><i class="fa fa-search"></i></li>
+                        <li><a href="#"><i class="fa fa-shopping-bag"></i></a></li>
+                        <li class="select-language">
+                            <select name="#" id="#">
+                            <option selected value="End">ENG</option>
+                            <option value="ARA">ARA</option>
+                            <option value="CHI">CHI</option>
+                        </select>
+                        </li>
+                    </ul>
+                    <form action="#" class="search-form">
+                        <input type="search" name="search" id="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <div id="main-nav" class="stellarnav">
+                    <ul id="nav" class="nav navbar-nav">
+                        <li><a href="{% url 'index' %}">home</a></li>
+                        <li><a href="{% url 'about' %}">about</a>
+                            <ul>
+                                <li><a href="{% url 'about' %}">About</a></li>
+                                <!-- <li><a href="{% url 'about' %}">About Profile</a></li>
+                                <li><a href="{% url 'about' %}">About History</a></li>
+                                <li><a href="{% url 'about' %}">About Report</a></li>
+                                <li><a href="{% url 'about' %}">About Team</a></li>
+                                <li><a href="{% url 'about' %}">About Support</a></li> -->
+                            </ul>
+                        </li>
+                        <li><a href="{% url 'services' %}">Service</a>
+                            <ul>
+                                <li><a href="{% url 'services' %}">Service Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="{% url 'contact' %}">Contact</a>
+                            <ul>
+                                <li><a href="{% url 'contact' %}">Contact Version 2</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--END MAINMENU AREA END-->
+</div>
+
+{% block navbar %}
+{% endblock %}
