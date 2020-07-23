@@ -24,7 +24,7 @@ Version: 1.0
     12. ABOUT DETAILS CONTENT AREA
     13. REPORT AREA
     14. TEAM AERA
-    15. SERVICE TWO 
+    15. SERVICE TWO
     16. SERVICE THREE
     17. CONTACT AREA
     18. FOOTER AREA
@@ -659,7 +659,7 @@ ul#nav li ul a,
     content: "";
     height: 100%;
     left: 0;
-    opacity: 0.7;
+    opacity: 0.1;
     position: absolute;
     top: 0;
     width: 100%;
@@ -868,6 +868,14 @@ ul#nav li ul a,
 .quote-form button:hover {
     background: #f39c12;
     color: #fff;
+}
+
+.area-title h2{
+    color: white;
+}
+
+.area-title p{
+    color: white;
 }
 
 .about-content h2 {
@@ -1598,7 +1606,7 @@ ul#nav li ul a,
 }
 
 /* -----------------------------
-    15. SERVICE TWO 
+    15. SERVICE TWO
 ------------------------------ */
 
 .single-service-two {
