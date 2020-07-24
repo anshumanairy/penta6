@@ -46,57 +46,13 @@
                 <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                     <div class="quote-form-area wow fadeIn">
                         <h3>Get A Quote</h3>
-                        <form class="quote-form" action="#">
+                        <form class="quote-form" method="POST" action="" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            {% for ele in form %}
                             <p class="width-full">
-                                <input type="text" name="name" id="name" placeholder="Your Name">
+                                {{ele}}
                             </p>
-                            <p class="width-half">
-                                <input type="email" name="email" id="email" placeholder="Email">
-<!--                                 Phone Field must have option for country codes for phones -->
-                                <input class="pull-right" type="phone" name="phone" id="phone" placeholder="Phone">
-                            </p>
-                            <p class="width-half">
-                                <input type="text" name="goods" id="goods" placeholder="Goods">
-                                <input class="pull-right" type="text" name="quantity" id="quantity" placeholder="Quantity">
-                            </p>
-                            <p class="width-full">
-                                <!-- Extends to the full width of container -->
-                                <!-- Needs to be styled like other elements of the container -->
-                                <!-- Must have Label Tag -->
-                                <select name="type" id="type" placeholder="Type">
-                                  <option value="volvo">Land</option>
-                                  <option value="volvo">Air</option>
-                                  <option value="volvo">Ocean</option>
-                                </select>
-                            </p>
-                            <p class="width-half">
-                                <!-- Needs to be styled like other elements of the container -->
-                                <!-- Must have Origin Label Tag -->
-                                <!-- Must have all countries -->
-                                <!-- Countries where shipping is not available will not be selectable -->
-                                <select name="destination" id="destination" placeholder="Destination">
-                                  <option value="volvo">Oman</option>
-                                  <option value="volvo">India</option>
-                                  <option value="volvo">USA</option>
-                                  <option value="volvo">China</option>
-                                  <option value="volvo">UAE</option>
-                                </select>
-                                <!-- Needs to be styled like other elements of the container -->
-                                <!-- Must have Destination Label Tag -->
-                                <!-- Must have all countries -->
-                                <!-- Countries where shipping is not available will not be selectable -->
-                                <select name="origin" id="origin" placeholder="Origin">
-                                  <option value="volvo">Oman</option>
-                                  <option value="volvo">India</option>
-                                  <option value="volvo">USA</option>
-                                  <option value="volvo">China</option>
-                                  <option value="volvo">UAE</option>
-                                </select>
-
-                            </p>
-                            <p>
-                                <textarea name="quote-message" id="quote-message" cols="30" rows="4" placeholder="Your Message..."></textarea>
-                            </p>
+                            {% endfor %}
                             <button type="submit">Send</button>
                         </form>
                     </div>
