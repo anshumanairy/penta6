@@ -17,6 +17,7 @@ from django.contrib.auth.models import Permission
 from django.utils.timezone import utc
 from django.utils import timezone
 from freight.forms.quoteform import QuoteForm
+from freight.models.quotes import Country
 
 
 def quote(request):
