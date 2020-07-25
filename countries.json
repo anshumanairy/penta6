@@ -1,0 +1,1994 @@
+[
+{
+    "model": "freight.country",
+    "pk": 1,
+    "fields": {
+        "c_code": "IND",
+        "c_Name": "India"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 2,
+    "fields": {
+        "c_code": "OMN",
+        "c_Name": "Oman"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 3,
+    "fields": {
+        "c_code": "ABW",
+        "c_Name": "Aruba"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 4,
+    "fields": {
+        "c_code": "AFG",
+        "c_Name": "Afghanistan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 5,
+    "fields": {
+        "c_code": "AGO",
+        "c_Name": "Angola"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 6,
+    "fields": {
+        "c_code": "AIA",
+        "c_Name": "Anguilla"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 7,
+    "fields": {
+        "c_code": "ALA",
+        "c_Name": "\u00c5land Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 8,
+    "fields": {
+        "c_code": "ALB",
+        "c_Name": "Albania"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 9,
+    "fields": {
+        "c_code": "AND",
+        "c_Name": "Andorra"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 10,
+    "fields": {
+        "c_code": "ARE",
+        "c_Name": "United Arab Emirates"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 11,
+    "fields": {
+        "c_code": "ARG",
+        "c_Name": "Argentina"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 12,
+    "fields": {
+        "c_code": "ARM",
+        "c_Name": "Armenia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 13,
+    "fields": {
+        "c_code": "ASM",
+        "c_Name": "American Samoa"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 14,
+    "fields": {
+        "c_code": "ATA",
+        "c_Name": "Antarctica"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 15,
+    "fields": {
+        "c_code": "ATF",
+        "c_Name": "French Southern Territories"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 16,
+    "fields": {
+        "c_code": "ATG",
+        "c_Name": "Antigua and Barbuda"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 17,
+    "fields": {
+        "c_code": "AUS",
+        "c_Name": "Australia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 18,
+    "fields": {
+        "c_code": "AUT",
+        "c_Name": "Austria"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 19,
+    "fields": {
+        "c_code": "AZE",
+        "c_Name": "Azerbaijan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 20,
+    "fields": {
+        "c_code": "BDI",
+        "c_Name": "Burundi"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 21,
+    "fields": {
+        "c_code": "BEL",
+        "c_Name": "Belgium"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 22,
+    "fields": {
+        "c_code": "BEN",
+        "c_Name": "Benin"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 23,
+    "fields": {
+        "c_code": "BES",
+        "c_Name": "Bonaire, Sint Eustatius and Saba"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 24,
+    "fields": {
+        "c_code": "BFA",
+        "c_Name": "Burkina Faso"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 25,
+    "fields": {
+        "c_code": "BGD",
+        "c_Name": "Bangladesh"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 26,
+    "fields": {
+        "c_code": "BGR",
+        "c_Name": "Bulgaria"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 27,
+    "fields": {
+        "c_code": "BHR",
+        "c_Name": "Bahrain"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 28,
+    "fields": {
+        "c_code": "BHS",
+        "c_Name": "Bahamas"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 29,
+    "fields": {
+        "c_code": "BIH",
+        "c_Name": "Bosnia and Herzegovina"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 30,
+    "fields": {
+        "c_code": "BLM",
+        "c_Name": "Saint Barth\u00e9lemy"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 31,
+    "fields": {
+        "c_code": "BLR",
+        "c_Name": "Belarus"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 32,
+    "fields": {
+        "c_code": "BLZ",
+        "c_Name": "Belize"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 33,
+    "fields": {
+        "c_code": "BMU",
+        "c_Name": "Bermuda"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 34,
+    "fields": {
+        "c_code": "BOL",
+        "c_Name": "Bolivia (Plurinational State of)"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 35,
+    "fields": {
+        "c_code": "BRA",
+        "c_Name": "Brazil"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 36,
+    "fields": {
+        "c_code": "BRB",
+        "c_Name": "Barbados"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 37,
+    "fields": {
+        "c_code": "BRN",
+        "c_Name": "Brunei Darussalam"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 38,
+    "fields": {
+        "c_code": "BTN",
+        "c_Name": "Bhutan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 39,
+    "fields": {
+        "c_code": "BVT",
+        "c_Name": "Bouvet Island"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 40,
+    "fields": {
+        "c_code": "BWA",
+        "c_Name": "Botswana"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 41,
+    "fields": {
+        "c_code": "CAF",
+        "c_Name": "Central African Republic"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 42,
+    "fields": {
+        "c_code": "CAN",
+        "c_Name": "Canada"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 43,
+    "fields": {
+        "c_code": "CCK",
+        "c_Name": "Cocos (Keeling) Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 44,
+    "fields": {
+        "c_code": "CHE",
+        "c_Name": "Switzerland"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 45,
+    "fields": {
+        "c_code": "CHL",
+        "c_Name": "Chile"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 46,
+    "fields": {
+        "c_code": "CHN",
+        "c_Name": "China"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 47,
+    "fields": {
+        "c_code": "CIV",
+        "c_Name": "C\u00f4te d'Ivoire"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 48,
+    "fields": {
+        "c_code": "CMR",
+        "c_Name": "Cameroon"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 49,
+    "fields": {
+        "c_code": "COD",
+        "c_Name": "Congo, Democratic Republic of the"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 50,
+    "fields": {
+        "c_code": "COG",
+        "c_Name": "Congo"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 51,
+    "fields": {
+        "c_code": "COK",
+        "c_Name": "Cook Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 52,
+    "fields": {
+        "c_code": "COL",
+        "c_Name": "Colombia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 53,
+    "fields": {
+        "c_code": "COM",
+        "c_Name": "Comoros"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 54,
+    "fields": {
+        "c_code": "CPV",
+        "c_Name": "Cabo Verde"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 55,
+    "fields": {
+        "c_code": "CRI",
+        "c_Name": "Costa Rica"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 56,
+    "fields": {
+        "c_code": "CUB",
+        "c_Name": "Cuba"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 57,
+    "fields": {
+        "c_code": "CUW",
+        "c_Name": "Cura\u00e7ao"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 58,
+    "fields": {
+        "c_code": "CXR",
+        "c_Name": "Christmas Island"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 59,
+    "fields": {
+        "c_code": "CYM",
+        "c_Name": "Cayman Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 60,
+    "fields": {
+        "c_code": "CYP",
+        "c_Name": "Cyprus"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 61,
+    "fields": {
+        "c_code": "CZE",
+        "c_Name": "Czechia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 62,
+    "fields": {
+        "c_code": "DEU",
+        "c_Name": "Germany"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 63,
+    "fields": {
+        "c_code": "DJI",
+        "c_Name": "Djibouti"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 64,
+    "fields": {
+        "c_code": "DMA",
+        "c_Name": "Dominica"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 65,
+    "fields": {
+        "c_code": "DNK",
+        "c_Name": "Denmark"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 66,
+    "fields": {
+        "c_code": "DOM",
+        "c_Name": "Dominican Republic"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 67,
+    "fields": {
+        "c_code": "DZA",
+        "c_Name": "Algeria"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 68,
+    "fields": {
+        "c_code": "ECU",
+        "c_Name": "Ecuador"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 69,
+    "fields": {
+        "c_code": "EGY",
+        "c_Name": "Egypt"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 70,
+    "fields": {
+        "c_code": "ERI",
+        "c_Name": "Eritrea"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 71,
+    "fields": {
+        "c_code": "ESH",
+        "c_Name": "Western Sahara"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 72,
+    "fields": {
+        "c_code": "ESP",
+        "c_Name": "Spain"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 73,
+    "fields": {
+        "c_code": "EST",
+        "c_Name": "Estonia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 74,
+    "fields": {
+        "c_code": "ETH",
+        "c_Name": "Ethiopia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 75,
+    "fields": {
+        "c_code": "FIN",
+        "c_Name": "Finland"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 76,
+    "fields": {
+        "c_code": "FJI",
+        "c_Name": "Fiji"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 77,
+    "fields": {
+        "c_code": "FLK",
+        "c_Name": "Falkland Islands (Malvinas)"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 78,
+    "fields": {
+        "c_code": "FRA",
+        "c_Name": "France"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 79,
+    "fields": {
+        "c_code": "FRO",
+        "c_Name": "Faroe Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 80,
+    "fields": {
+        "c_code": "FSM",
+        "c_Name": "Micronesia (Federated States of)"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 81,
+    "fields": {
+        "c_code": "GAB",
+        "c_Name": "Gabon"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 82,
+    "fields": {
+        "c_code": "GBR",
+        "c_Name": "Great Britain and Northern Ireland"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 83,
+    "fields": {
+        "c_code": "GEO",
+        "c_Name": "Georgia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 84,
+    "fields": {
+        "c_code": "GGY",
+        "c_Name": "Guernsey"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 85,
+    "fields": {
+        "c_code": "GHA",
+        "c_Name": "Ghana"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 86,
+    "fields": {
+        "c_code": "GIB",
+        "c_Name": "Gibraltar"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 87,
+    "fields": {
+        "c_code": "GIN",
+        "c_Name": "Guinea"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 88,
+    "fields": {
+        "c_code": "GLP",
+        "c_Name": "Guadeloupe"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 89,
+    "fields": {
+        "c_code": "GMB",
+        "c_Name": "Gambia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 90,
+    "fields": {
+        "c_code": "GNB",
+        "c_Name": "Guinea-Bissau"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 91,
+    "fields": {
+        "c_code": "GNQ",
+        "c_Name": "Equatorial Guinea"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 92,
+    "fields": {
+        "c_code": "GRC",
+        "c_Name": "Greece"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 93,
+    "fields": {
+        "c_code": "GRD",
+        "c_Name": "Grenada"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 94,
+    "fields": {
+        "c_code": "GRL",
+        "c_Name": "Greenland"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 95,
+    "fields": {
+        "c_code": "GTM",
+        "c_Name": "Guatemala"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 96,
+    "fields": {
+        "c_code": "GUF",
+        "c_Name": "French Guiana"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 97,
+    "fields": {
+        "c_code": "GUM",
+        "c_Name": "Guam"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 98,
+    "fields": {
+        "c_code": "GUY",
+        "c_Name": "Guyana"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 99,
+    "fields": {
+        "c_code": "HKG",
+        "c_Name": "Hong Kong"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 100,
+    "fields": {
+        "c_code": "HMD",
+        "c_Name": "Heard Island and McDonald Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 101,
+    "fields": {
+        "c_code": "HND",
+        "c_Name": "Honduras"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 102,
+    "fields": {
+        "c_code": "HRV",
+        "c_Name": "Croatia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 103,
+    "fields": {
+        "c_code": "HTI",
+        "c_Name": "Haiti"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 104,
+    "fields": {
+        "c_code": "HUN",
+        "c_Name": "Hungary"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 105,
+    "fields": {
+        "c_code": "IDN",
+        "c_Name": "Indonesia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 106,
+    "fields": {
+        "c_code": "IMN",
+        "c_Name": "Isle of Man"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 107,
+    "fields": {
+        "c_code": "IOT",
+        "c_Name": "British Indian Ocean Territory"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 108,
+    "fields": {
+        "c_code": "IRL",
+        "c_Name": "Ireland"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 109,
+    "fields": {
+        "c_code": "IRN",
+        "c_Name": "Iran (Islamic Republic of)"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 110,
+    "fields": {
+        "c_code": "IRQ",
+        "c_Name": "Iraq"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 111,
+    "fields": {
+        "c_code": "ISL",
+        "c_Name": "Iceland"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 112,
+    "fields": {
+        "c_code": "ISR",
+        "c_Name": "Israel"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 113,
+    "fields": {
+        "c_code": "ITA",
+        "c_Name": "Italy"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 114,
+    "fields": {
+        "c_code": "JAM",
+        "c_Name": "Jamaica"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 115,
+    "fields": {
+        "c_code": "JEY",
+        "c_Name": "Jersey"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 116,
+    "fields": {
+        "c_code": "JOR",
+        "c_Name": "Jordan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 117,
+    "fields": {
+        "c_code": "JPN",
+        "c_Name": "Japan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 118,
+    "fields": {
+        "c_code": "KAZ",
+        "c_Name": "Kazakhstan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 119,
+    "fields": {
+        "c_code": "KEN",
+        "c_Name": "Kenya"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 120,
+    "fields": {
+        "c_code": "KGZ",
+        "c_Name": "Kyrgyzstan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 121,
+    "fields": {
+        "c_code": "KHM",
+        "c_Name": "Cambodia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 122,
+    "fields": {
+        "c_code": "KIR",
+        "c_Name": "Kiribati"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 123,
+    "fields": {
+        "c_code": "KNA",
+        "c_Name": "Saint Kitts and Nevis"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 124,
+    "fields": {
+        "c_code": "KOR",
+        "c_Name": "Korea, Republic of"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 125,
+    "fields": {
+        "c_code": "KWT",
+        "c_Name": "Kuwait"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 126,
+    "fields": {
+        "c_code": "LAO",
+        "c_Name": "Lao People's Democratic Republic"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 127,
+    "fields": {
+        "c_code": "LBN",
+        "c_Name": "Lebanon"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 128,
+    "fields": {
+        "c_code": "LBR",
+        "c_Name": "Liberia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 129,
+    "fields": {
+        "c_code": "LBY",
+        "c_Name": "Libya"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 130,
+    "fields": {
+        "c_code": "LCA",
+        "c_Name": "Saint Lucia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 131,
+    "fields": {
+        "c_code": "LIE",
+        "c_Name": "Liechtenstein"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 132,
+    "fields": {
+        "c_code": "LKA",
+        "c_Name": "Sri Lanka"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 133,
+    "fields": {
+        "c_code": "LSO",
+        "c_Name": "Lesotho"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 134,
+    "fields": {
+        "c_code": "LTU",
+        "c_Name": "Lithuania"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 135,
+    "fields": {
+        "c_code": "LUX",
+        "c_Name": "Luxembourg"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 136,
+    "fields": {
+        "c_code": "LVA",
+        "c_Name": "Latvia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 137,
+    "fields": {
+        "c_code": "MAC",
+        "c_Name": "Macao"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 138,
+    "fields": {
+        "c_code": "MAF",
+        "c_Name": "Saint Martin (French part)"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 139,
+    "fields": {
+        "c_code": "MAR",
+        "c_Name": "Morocco"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 140,
+    "fields": {
+        "c_code": "MCO",
+        "c_Name": "Monaco"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 141,
+    "fields": {
+        "c_code": "MDA",
+        "c_Name": "Moldova, Republic of"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 142,
+    "fields": {
+        "c_code": "MDG",
+        "c_Name": "Madagascar"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 143,
+    "fields": {
+        "c_code": "MDV",
+        "c_Name": "Maldives"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 144,
+    "fields": {
+        "c_code": "MEX",
+        "c_Name": "Mexico"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 145,
+    "fields": {
+        "c_code": "MHL",
+        "c_Name": "Marshall Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 146,
+    "fields": {
+        "c_code": "MKD",
+        "c_Name": "North Macedonia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 147,
+    "fields": {
+        "c_code": "MLI",
+        "c_Name": "Mali"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 148,
+    "fields": {
+        "c_code": "MLT",
+        "c_Name": "Malta"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 149,
+    "fields": {
+        "c_code": "MMR",
+        "c_Name": "Myanmar"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 150,
+    "fields": {
+        "c_code": "MNE",
+        "c_Name": "Montenegro"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 151,
+    "fields": {
+        "c_code": "MNG",
+        "c_Name": "Mongolia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 152,
+    "fields": {
+        "c_code": "MNP",
+        "c_Name": "Northern Mariana Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 153,
+    "fields": {
+        "c_code": "MOZ",
+        "c_Name": "Mozambique"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 154,
+    "fields": {
+        "c_code": "MRT",
+        "c_Name": "Mauritania"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 155,
+    "fields": {
+        "c_code": "MSR",
+        "c_Name": "Montserrat"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 156,
+    "fields": {
+        "c_code": "MTQ",
+        "c_Name": "Martinique"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 157,
+    "fields": {
+        "c_code": "MUS",
+        "c_Name": "Mauritius"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 158,
+    "fields": {
+        "c_code": "MWI",
+        "c_Name": "Malawi"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 159,
+    "fields": {
+        "c_code": "MYS",
+        "c_Name": "Malaysia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 160,
+    "fields": {
+        "c_code": "MYT",
+        "c_Name": "Mayotte"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 161,
+    "fields": {
+        "c_code": "NAM",
+        "c_Name": "Namibia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 162,
+    "fields": {
+        "c_code": "NCL",
+        "c_Name": "New Caledonia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 163,
+    "fields": {
+        "c_code": "NER",
+        "c_Name": "Niger"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 164,
+    "fields": {
+        "c_code": "NFK",
+        "c_Name": "Norfolk Island"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 165,
+    "fields": {
+        "c_code": "NGA",
+        "c_Name": "Nigeria"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 166,
+    "fields": {
+        "c_code": "NIC",
+        "c_Name": "Nicaragua"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 167,
+    "fields": {
+        "c_code": "NIU",
+        "c_Name": "Niue"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 168,
+    "fields": {
+        "c_code": "NLD",
+        "c_Name": "Netherlands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 169,
+    "fields": {
+        "c_code": "NOR",
+        "c_Name": "Norway"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 170,
+    "fields": {
+        "c_code": "NPL",
+        "c_Name": "Nepal"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 171,
+    "fields": {
+        "c_code": "NRU",
+        "c_Name": "Nauru"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 172,
+    "fields": {
+        "c_code": "NZL",
+        "c_Name": "New Zealand"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 173,
+    "fields": {
+        "c_code": "PAK",
+        "c_Name": "Pakistan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 174,
+    "fields": {
+        "c_code": "PAN",
+        "c_Name": "Panama"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 175,
+    "fields": {
+        "c_code": "PCN",
+        "c_Name": "Pitcairn"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 176,
+    "fields": {
+        "c_code": "PER",
+        "c_Name": "Peru"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 177,
+    "fields": {
+        "c_code": "PHL",
+        "c_Name": "Philippines"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 178,
+    "fields": {
+        "c_code": "PLW",
+        "c_Name": "Palau"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 179,
+    "fields": {
+        "c_code": "PNG",
+        "c_Name": "Papua New Guinea"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 180,
+    "fields": {
+        "c_code": "POL",
+        "c_Name": "Poland"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 181,
+    "fields": {
+        "c_code": "PRI",
+        "c_Name": "Puerto Rico"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 182,
+    "fields": {
+        "c_code": "PRK",
+        "c_Name": "Korea (Democratic People's Republic of)"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 183,
+    "fields": {
+        "c_code": "PRT",
+        "c_Name": "Portugal"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 184,
+    "fields": {
+        "c_code": "PRY",
+        "c_Name": "Paraguay"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 185,
+    "fields": {
+        "c_code": "PSE",
+        "c_Name": "Palestine, State of"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 186,
+    "fields": {
+        "c_code": "PYF",
+        "c_Name": "French Polynesia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 187,
+    "fields": {
+        "c_code": "QAT",
+        "c_Name": "Qatar"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 188,
+    "fields": {
+        "c_code": "REU",
+        "c_Name": "R\u00e9union"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 189,
+    "fields": {
+        "c_code": "ROU",
+        "c_Name": "Romania"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 190,
+    "fields": {
+        "c_code": "RUS",
+        "c_Name": "Russian Federation"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 191,
+    "fields": {
+        "c_code": "RWA",
+        "c_Name": "Rwanda"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 192,
+    "fields": {
+        "c_code": "SAU",
+        "c_Name": "Saudi Arabia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 193,
+    "fields": {
+        "c_code": "SDN",
+        "c_Name": "Sudan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 194,
+    "fields": {
+        "c_code": "SEN",
+        "c_Name": "Senegal"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 195,
+    "fields": {
+        "c_code": "SGP",
+        "c_Name": "Singapore"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 196,
+    "fields": {
+        "c_code": "SGS",
+        "c_Name": "South Georgia and the South Sandwich Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 197,
+    "fields": {
+        "c_code": "SHN",
+        "c_Name": "Saint Helena, Ascension and Tristan da Cunha"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 198,
+    "fields": {
+        "c_code": "SJM",
+        "c_Name": "Svalbard and Jan Mayen"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 199,
+    "fields": {
+        "c_code": "SLB",
+        "c_Name": "Solomon Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 200,
+    "fields": {
+        "c_code": "SLE",
+        "c_Name": "Sierra Leone"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 201,
+    "fields": {
+        "c_code": "SLV",
+        "c_Name": "El Salvador"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 202,
+    "fields": {
+        "c_code": "SMR",
+        "c_Name": "San Marino"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 203,
+    "fields": {
+        "c_code": "SOM",
+        "c_Name": "Somalia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 204,
+    "fields": {
+        "c_code": "SPM",
+        "c_Name": "Saint Pierre and Miquelon"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 205,
+    "fields": {
+        "c_code": "SRB",
+        "c_Name": "Serbia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 206,
+    "fields": {
+        "c_code": "SSD",
+        "c_Name": "South Sudan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 207,
+    "fields": {
+        "c_code": "STP",
+        "c_Name": "Sao Tome and Principe"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 208,
+    "fields": {
+        "c_code": "SUR",
+        "c_Name": "Suriname"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 209,
+    "fields": {
+        "c_code": "SVK",
+        "c_Name": "Slovakia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 210,
+    "fields": {
+        "c_code": "SVN",
+        "c_Name": "Slovenia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 211,
+    "fields": {
+        "c_code": "SWE",
+        "c_Name": "Sweden"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 212,
+    "fields": {
+        "c_code": "SWZ",
+        "c_Name": "Eswatini"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 213,
+    "fields": {
+        "c_code": "SXM",
+        "c_Name": "Sint Maarten (Dutch part)"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 214,
+    "fields": {
+        "c_code": "SYC",
+        "c_Name": "Seychelles"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 215,
+    "fields": {
+        "c_code": "SYR",
+        "c_Name": "Syrian Arab Republic"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 216,
+    "fields": {
+        "c_code": "TCA",
+        "c_Name": "Turks and Caicos Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 217,
+    "fields": {
+        "c_code": "TCD",
+        "c_Name": "Chad"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 218,
+    "fields": {
+        "c_code": "TGO",
+        "c_Name": "Togo"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 219,
+    "fields": {
+        "c_code": "THA",
+        "c_Name": "Thailand"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 220,
+    "fields": {
+        "c_code": "TJK",
+        "c_Name": "Tajikistan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 221,
+    "fields": {
+        "c_code": "TKL",
+        "c_Name": "Tokelau"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 222,
+    "fields": {
+        "c_code": "TKM",
+        "c_Name": "Turkmenistan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 223,
+    "fields": {
+        "c_code": "TLS",
+        "c_Name": "Timor-Leste"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 224,
+    "fields": {
+        "c_code": "TON",
+        "c_Name": "Tonga"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 225,
+    "fields": {
+        "c_code": "TTO",
+        "c_Name": "Trinidad and Tobago"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 226,
+    "fields": {
+        "c_code": "TUN",
+        "c_Name": "Tunisia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 227,
+    "fields": {
+        "c_code": "TUR",
+        "c_Name": "Turkey"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 228,
+    "fields": {
+        "c_code": "TUV",
+        "c_Name": "Tuvalu"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 229,
+    "fields": {
+        "c_code": "TWN",
+        "c_Name": "Taiwan, Province of China"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 230,
+    "fields": {
+        "c_code": "TZA",
+        "c_Name": "Tanzania, United Republic of"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 231,
+    "fields": {
+        "c_code": "UGA",
+        "c_Name": "Uganda"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 232,
+    "fields": {
+        "c_code": "UKR",
+        "c_Name": "Ukraine"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 233,
+    "fields": {
+        "c_code": "UMI",
+        "c_Name": "United States Minor Outlying Islands"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 234,
+    "fields": {
+        "c_code": "URY",
+        "c_Name": "Uruguay"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 235,
+    "fields": {
+        "c_code": "USA",
+        "c_Name": "United States of America"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 236,
+    "fields": {
+        "c_code": "UZB",
+        "c_Name": "Uzbekistan"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 237,
+    "fields": {
+        "c_code": "VAT",
+        "c_Name": "Holy See"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 238,
+    "fields": {
+        "c_code": "VCT",
+        "c_Name": "Saint Vincent and the Grenadines"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 239,
+    "fields": {
+        "c_code": "VEN",
+        "c_Name": "Venezuela (Bolivarian Republic of)"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 240,
+    "fields": {
+        "c_code": "VGB",
+        "c_Name": "Virgin Islands (British)"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 241,
+    "fields": {
+        "c_code": "VIR",
+        "c_Name": "Virgin Islands (U.S.)"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 242,
+    "fields": {
+        "c_code": "VNM",
+        "c_Name": "Viet Nam"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 243,
+    "fields": {
+        "c_code": "VUT",
+        "c_Name": "Vanuatu"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 244,
+    "fields": {
+        "c_code": "WLF",
+        "c_Name": "Wallis and Futuna"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 245,
+    "fields": {
+        "c_code": "WSM",
+        "c_Name": "Samoa"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 246,
+    "fields": {
+        "c_code": "YEM",
+        "c_Name": "Yemen"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 247,
+    "fields": {
+        "c_code": "ZAF",
+        "c_Name": "South Africa"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 248,
+    "fields": {
+        "c_code": "ZMB",
+        "c_Name": "Zambia"
+    }
+},
+{
+    "model": "freight.country",
+    "pk": 249,
+    "fields": {
+        "c_code": "ZWE",
+        "c_Name": "Zimbabwe"
+    }
+}
+]

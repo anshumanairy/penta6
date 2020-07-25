@@ -14,10 +14,16 @@ class QuoteForm(forms.ModelForm):
     goods=forms.CharField(widget=forms.TextInput(attrs={'placeholder':'Goods'}))
     quantity=forms.CharField(widget=forms.TextInput(attrs={'placeholder':'Enter Quantity'}))
     c_type=forms.ChoiceField(choices=Quotes.types,label='Type')
-    destination=forms.ChoiceField(choices=get_country(),label='Destination')
+    try:
+        destination=forms.ChoiceField(choices=get_country(),label='Destination')
+    except:
+        pass
     destination_address=forms.CharField(widget=forms.Textarea(attrs={'placeholder':'Enter Destination Address'}))
     destination_pincode=forms.IntegerField(widget=forms.NumberInput(attrs={'placeholder':'Enter Destination Pin'}))
-    origin=forms.ChoiceField(choices=get_country(),label='Origin')
+    try:
+        origin=forms.ChoiceField(choices=get_country(),label='Origin')
+    except:
+        pass
     origin_address=forms.CharField(widget=forms.Textarea(attrs={'placeholder':'Enter Source Address'}))
     origin_pincode=forms.IntegerField(widget=forms.NumberInput(attrs={'placeholder':'Enter Source Pin'}))
     ctr_code=forms.ChoiceField(choices=Quotes.cnt_codes,label='Country Code')
