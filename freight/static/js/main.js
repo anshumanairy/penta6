@@ -20,7 +20,17 @@ jQuery(document).on('ready', function ($) {
     /*---------------------------
         SMOOTH SCROLL
     -----------------------------*/
-    $('ul#nav li a[href^="#"], a.navbar-brand, a.scrolltotop').on('click', function (event) {
+    $('ul#nav, a.navbar-brand, a.scrolltotop').on('click', function (event) {
+        var id = $(this).attr("href");
+        var offset = 60;
+        var target = $(id).offset().top - offset;
+        $('html, body').animate({
+            scrollTop: target
+        }, 1500, "easeInOutExpo");
+        event.preventDefault();
+    });
+
+    $('div#land_freight, a.scrolltoland').on('click', function (event) {
         var id = $(this).attr("href");
         var offset = 60;
         var target = $(id).offset().top - offset;
