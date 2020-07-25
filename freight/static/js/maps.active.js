@@ -58,7 +58,7 @@
             var marker = new google.maps.Marker({
                 position: new google.maps.LatLng(40.6700, -73.9400),
                 map: map,
-                icon: 'img/map-marker.png',
-                title: 'WEEDING DAY!'
+                icon: '/static/img/map-marker.png',
+                title: 'Address'
             });
         }

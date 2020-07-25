@@ -659,7 +659,7 @@ ul#nav li ul a,
     content: "";
     height: 100%;
     left: 0;
-    opacity: 0.1;
+    opacity: 0.3;
     position: absolute;
     top: 0;
     width: 100%;
@@ -714,15 +714,15 @@ ul#nav li ul a,
 }
 
 .slider-bg-one {
-    background: url(img/slider/slide_1.jpg) no-repeat scroll center center / cover;
+    background: url(/static/img/slider/slide_2.jpg) no-repeat scroll center center / cover;
 }
 
 .slider-bg-two {
-    background: url(img/slider/slide_2.jpg) no-repeat scroll center center / cover;
+    background: url(/static/img/slider/slide_1.jpg) no-repeat scroll center center / cover;
 }
 
 .slider-bg-three {
-    background: url(img/slider/slide_3.jpg) no-repeat scroll center center / cover;
+    background: url(/static/img/slider/slide_3.jpg) no-repeat scroll center center / cover;
 }
 
 .welcome-slider-area.owl-carousel .owl-nav > div {
