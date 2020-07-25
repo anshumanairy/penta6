@@ -16,7 +16,14 @@ from django.contrib.auth.models import Group
 from django.contrib.auth.models import Permission
 from django.utils.timezone import utc
 from django.utils import timezone
+from freight.forms.quoteform import QuoteForm
 
 
 def quote(request):
-    return render(request,'quote.html/',{})
+    form=QuoteForm(request.POST or None)
+    context={"form":form}
+    if form.is_valid():
+        obj=form.save()
+        print(obj)
+        return redirect('/quote')
+    return render(request,'quote.html/',context)
