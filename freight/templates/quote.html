@@ -50,6 +50,8 @@
                             {% csrf_token %}
                             {% for ele in form %}
                             <p class="width-full">
+                                {{ele.errors}}
+                                {{ ele.label_tag }}
                                 {{ele}}
                             </p>
                             {% endfor %}
