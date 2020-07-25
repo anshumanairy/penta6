@@ -1,3 +1,7 @@
+asgiref==3.2.10
 Django==3.0.8
-mysql-connector-python @ http://cdn.mysql.com/Downloads/Connector-Python/mysql-connector-python-3.8.4.zip
 mysqlclient==2.0.1
+protobuf==3.12.2
+pytz==2020.1
+six==1.15.0
+sqlparse==0.3.1
