@@ -3,6 +3,14 @@ Web Application for Penta Six Bright: A Freight Business Company based in US
 
 Freight Forwarding
 
+Setup:
+- Clone the Repo from the master branch
+- Install the requirements from requirements.txt
+- Create empty db in mysql of name penta6_db
+- python manage.py migrate
+- python manage.py loaddata countries.json
+
+TO DO:
 - [x] Logo and Colour Scheme
 - [x] Help and how in COVID 19
 - [ ] Login and Register
