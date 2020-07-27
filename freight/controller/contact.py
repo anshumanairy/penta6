@@ -16,7 +16,28 @@ from django.contrib.auth.models import Group
 from django.contrib.auth.models import Permission
 from django.utils.timezone import utc
 from django.utils import timezone
+from freight.forms.contactform import ContactForm
+from django.core.mail import send_mail
+from django.contrib import messages
 
 
 def contact(request):
-    return render(request,'contact.html/',{})
+    if request.method == 'POST':
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            sender_name = form.cleaned_data['name']
+            sender_email = form.cleaned_data['email']
+            message = "{0} has sent you a new message:\n\n{1}".format(sender_name, form.cleaned_data['message'])
+            send_mail('New Enquiry', message, sender_email, ['github.furniture@gmail.com'], fail_silently=False)
+            messages.add_message(request, messages.SUCCESS, 'Thanks for your feedback!!')
+            # form = ContactForm()
+            # return render(request, 'contact.html', {'form': form})
+            # return render(request, 'index.html')
+            return redirect("contact")
+    else:
+        form = ContactForm()
+
+    return render(request, 'contact.html', {'form': form})
+
+# def contact(request):
+#     return render(request,'contact.html/',{})
