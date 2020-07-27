@@ -37,8 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'freight'
+    'freight',
+    'crispy_forms',
 ]
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -107,6 +110,12 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+EMAIL_USE_TLS = True # new
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com' # new
+EMAIL_HOST_USER = 'github.furniture@gmail.com' # new
+EMAIL_HOST_PASSWORD = 'Shadow0427@' # new
+EMAIL_PORT = 587 # new
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
