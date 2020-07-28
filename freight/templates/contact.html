@@ -1,6 +1,6 @@
 {% include 'base.html' %}
 {% include 'navbar.html' %}
-
+{% load crispy_forms_tags %}
 {% block base %}
 
 <body class="single-page">
@@ -30,24 +30,76 @@
             </div>
         </div>
     </header>
+
+
+
     <!--END TOP AREA-->
 
     <!--CONTACT US AREA-->
     <section class="contact-area" id="contact">
         <div class="contact-form-area section-padding gray-bg">
             <div class="container">
+              <div style="width=100%;">
                 <div class="row" style="padding-top:15em;">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                         <div class="area-title text-center">
-                            <h3>GET IN TOUCH</h3>
-                            <p>Need any help jusct send a message via our email address</p>
+                            <h2>Send Us A Message</h2>
+                            <h5>Need any help? Write us your comments.</h5>
                         </div>
                     </div>
                 </div>
+                <div class="contact-form">
+                  {% if messages %}
+              <ul class="messages">
+                  {% for message in messages %}
+                  <li{% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %}>
+                  <!-- <button type="button" class="close del-msg" data-dismiss="alert" aria-hidden="true">&times;</button> -->
+                  {{ message }}</li>
+                  <!-- <div class="alert alert-success alert-dismissable" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                      <span aria-hidden="true">&times;</span></button>
+                    {{message}}
+                  </div> -->
+                  {% endfor %}
+              </ul>
+              {% endif %}
                 <div class="row">
-                    <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12">
-                        <div class="contact-form">
-                            <form action="process.php" id="contact-form" method="post">
+                  <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9PjRb8XpGzmG5qRB2unGeE3xX-bzlMYX3oA&usqp=CAU); width:500px; height:510px; padding-left:50px;">
+                      <div class="contact-image">
+                          <div class="contact-address">
+                            <div style="margin:60px;">
+                              <h4 style="color:white;">Address</h4>
+                              <address>
+                                  Office  :  29 road, Sec-08, Uttara-1204, Dhaka, Bangladesh.
+                              </address><br>
+                              <p style="color:white;">Let's talk: <br><a href="callto:01744430440" style="color:green;">+88-01744-430-440</a></p><br>
+                              <p style="color:white;">General Support: <br><a href="mailto:backpiper.com@gmail.com" style="color:green;">backpiper.com@gmail.com</a></p>
+                          </div>
+                          </div>
+                          <div class="social-bookmark">
+                            <div style="margin:50px;">
+
+                              <h4 style="color:white;">Follow Us </h4>
+                              <ul>
+                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                                  <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                              </ul>
+                          </div>
+                          </div>
+
+                      </div>
+                  </div>
+                    <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12" style="width:600px; padding-left:50px;">
+
+                           <form method="post">
+                          {% csrf_token %}
+                          {{ form|crispy }}
+                           <button type="submit" class="btn btn-success">Submit</button>
+                         </form>
+                            <!-- <form action="process.php" id="contact-form" method="post">
                                 <div class="row">
                                     <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
                                         <div class="form-group" id="name-field">
@@ -89,10 +141,40 @@
                                         </div>
                                     </div>
                                 </div>
-                            </form>
+                            </form> -->
+                            <!-- {{ form.non_field_errors }}
+                         <div class="fieldWrapper">
+                            {{ form.name.errors }}
+                            <label for="{{ form.name.id_for_label }}">Name :</label>
+                            <br>
+                            {{ form.name }}
+                         </div>
+                         <br>
+                        <div class="fieldWrapper">
+                            {{ form.email.errors }}
+                            <label for="{{ form.email.id_for_label }}">Email :</label>
+                            <br>
+                            {{ form.email }}
+                        </div>
+                        <br>
+                        <div class="fieldWrapper">
+                            {{ form.message.errors }}
+                            <label for="{{ form.message.id_for_label }}">Comments :</label>
+                            <br>
+                            {{ form.message }}
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-success">Submit</button>
+                                </div>
+                            </div>
+                        </div> -->
+
                         </div>
                     </div>
-                    <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                    <!-- <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
                         <div class="contact-image">
                             <div class="contact-address">
                                 <h4>Address</h4>
@@ -113,21 +195,81 @@
                                 </ul>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
+                </div>
                 </div>
             </div>
         </div>
         <div class="map-area relative">
             <div id="map" style="width: 100%; height: 400px;"> </div>
         </div>
-    </section>
-    <!--CONTACT US AREA END-->
+     </section>
+
+     <!-- <h2>Contact Us</h2>
+     <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input type="submit" value="Submit" />
+    </form> -->
+
+     <!-- <section class="about-area gray-bg section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
+                    <div class="quote-form-area wow fadeIn">
+                        <h3>Get A Quote</h3>
+                        <form class="quote-form" method="POST" action="" enctype="multipart/form-data">
+                            {% csrf_token %}
+                            {% for ele in form %}
+                            <p class="width-full">
+                                {{ele.errors}}
+                                {{ ele.label_tag }}
+                                {{ele}}
+                            </p>
+                            {% endfor %}
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+<!--
+    {% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+    {% endfor %}
+</ul>
+{% endif %}
+     <form method="post">
+    {% csrf_token %}
+    {{ form|crispy }}
+     <button type="submit" class="btn btn-primary">Submit</button>
+   </form> -->
+
+
+
+
 
     <!--FOOER AREA-->
     {% include 'footer.html' %}
 
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&sensor=false"></script>
     <script src="/static/js/maps.active.js"></script>
+    <script>
+    $(document).ready(function() {
+        // messages timeout for 10 sec
+        setTimeout(function() {
+            $('.messages').fadeOut('slow');
+        }, 3000); // <-- time in milliseconds, 1000 =  1 sec
+
+        // delete message
+        $('.del-msg').live('click',function(){
+            $('.del-msg').parent().attr('style', 'display:none;');
+        })
+    });
+</script>
 </body>
 
 {% endblock %}
