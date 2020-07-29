@@ -364,7 +364,7 @@ input:-webkit-autofill:focus {
     content: "";
     height: 100%;
     left: 0;
-    opacity: 0.9;
+    opacity: 0.5;
     position: absolute;
     top: 0;
     width: 100%;
@@ -659,7 +659,7 @@ ul#nav li ul a,
     content: "";
     height: 100%;
     left: 0;
-    opacity: 0.3;
+    opacity: 0.1;
     position: absolute;
     top: 0;
     width: 100%;
@@ -1906,7 +1906,7 @@ a.scrolltotop:hover {
 }
 
 .single-page .top-area-bg::after {
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .single-page .welcome-text h2 {
