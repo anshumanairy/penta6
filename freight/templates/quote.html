@@ -13,38 +13,67 @@
 
         {% block navbar %}
         {% endblock %}
-        
+        <div class="welcome-area" >
+            <div class="area-bg"></div>
+            <div class="container">
+                <div class="row flex-v-center" >
+                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                        <div class="welcome-text text-center">
+                            <h2>quote</h2>
+                            <ul class="page-location">
+                                <li><a href="#">Home</a></li>
+                                <li>/</li>
+                                <li><a href="#">About</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </header>
     <!--END TOP AREA-->
 
     <!--ABOUT AREA-->
-    <section class="about-area gray-bg section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                    <div class="quote-form-area wow fadeIn">
-                        <h3>Get A Quote</h3>
+    <section class="about-area light-bg section-padding">
+        <div class="container-fluid" style="width:90%;max-height:auto;background-image: url('/static/img/quote_form_bg.jpg');background-repeat:no-repeat;background-size:100% 100%;border-radius:10px 10px 10px 10px;">
+            <div class="row" style="width:50%;height:100%;float:left;border-radius:10px 0px 0px 10px;">
+                  <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                  <div class="quote-welcome-text fadeIn text-center" style="margin-top:50em;">
+                      <h1 style="color:white;">"GET QUOTES"</h1>
+                      <h5 style="color:white;">Need any help? quote us</h5>
+                  </div>
+                  </div>
+              </div>
+
+
+            <div class="row" style="width:50%;height:100%;float:right;border-radius:10px 0px 0px 10px;margin-right:-2.2em;">
+                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
+                    <div class="quote-form-area wow fadeIn" style="border-radius:0px 10px 10px 0px;background:rgba(0,0,0,0.7)">
+
                         <form class="quote-form" method="POST" action="" enctype="multipart/form-data">
                             {% csrf_token %}
                             {% for ele in form %}
+                            <div class="md-form">
                             <p class="width-full">
                                 {{ele.errors}}
-                                {{ ele.label_tag }}
+                            <label for="form1">{{ ele.label_tag }} </label>
                                 {{ele}}
                             </p>
+                            </div>
                             {% endfor %}
                             <button type="submit">Send</button>
                         </form>
                     </div>
                 </div>
             </div>
-        </div>
+          </div>
     </section>
     <!--ABOUT AREA END-->
 
     <!-- Footer Area -->
     {% include 'footer.html' %}
-    
+
 </body>
 
 {% endblock %}
