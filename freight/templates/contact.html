@@ -31,8 +31,6 @@
         </div>
     </header>
 
-
-
     <!--END TOP AREA-->
 
     <!--CONTACT US AREA-->
@@ -44,7 +42,7 @@
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
                         <div class="area-title text-center">
                             <h2>Send Us A Message</h2>
-                            <h5>Need any help? Write us your comments.</h5>
+                            <h5>Need any help?  Write us your comments.</h5>
                         </div>
                     </div>
                 </div>
@@ -53,15 +51,7 @@
               <ul class="messages">
                   {% for message in messages %}
                   <li{% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %}>
-                  <!-- <button type="button" class="close del-msg" data-dismiss="alert" aria-hidden="true">&times;</button> -->
                   {{ message }}</li>
-                  <!-- <div class="alert alert-success alert-dismissable" role="alert">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                      <span aria-hidden="true">&times;</span></button>
-                    {{message}}
-                  </div>
-                  https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS9PjRb8XpGzmG5qRB2unGeE3xX-bzlMYX3oA&usqp=CAU
-                 -->
                   {% endfor %}
               </ul>
               {% endif %}
@@ -71,11 +61,11 @@
                           <div class="contact-address">
                             <div style="margin:60px;">
                               <h4 style="color:white;">Address</h4>
-                              <address>
-                                  Office  :  29 road, Sec-08, Uttara-1204, Dhaka, Bangladesh.
-                              </address><br>
-                              <p style="color:white;">Let's talk: <br><a href="callto:01744430440" style="color:green;">+88-01744-430-440</a></p><br>
-                              <p style="color:white;">General Support: <br><a href="mailto:backpiper.com@gmail.com" style="color:green;">backpiper.com@gmail.com</a></p>
+                              <br>
+                              <p style="color:white;">Office:<br>
+                              <a style="color:white;">Muscat, Sultanate of Oman</a></p><br>
+                              <p style="color:white;">Let's talk: <br><a href="callto:01744430440" style="color:white;">+968-97213778</a></p><br>
+                              <p style="color:white;">General Support: <br><a href="mailto:cs@pentasixbright.com" style="color:white;">cs@pentasixbright.com</a></p>
                           </div>
                           </div>
                           <div class="social-bookmark">
@@ -101,103 +91,8 @@
                           {{ form|crispy }}
                            <button type="submit" class="btn btn-success">Submit</button>
                          </form>
-                            <!-- <form action="process.php" id="contact-form" method="post">
-                                <div class="row">
-                                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                        <div class="form-group" id="name-field">
-                                            <div class="form-input">
-                                                <input type="text" class="form-control" id="form-name" name="form-name" placeholder="Name.." required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
-                                        <div class="form-group" id="email-field">
-                                            <div class="form-input">
-                                                <input type="email" class="form-control" id="form-email" name="form-email" placeholder="Email.." required>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                        <div class="form-group" id="phone-field">
-                                            <div class="form-input">
-                                                <input type="text" class="form-control" id="form-phone" name="form-phone" placeholder="Subject..">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                        <div class="form-group" id="message-field">
-                                            <div class="form-input">
-                                                <textarea class="form-control" rows="6" id="form-message" name="form-message" placeholder="Your Message Here..." required></textarea>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                        <div class="form-group">
-                                            <button type="submit">Send</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form> -->
-                            <!-- {{ form.non_field_errors }}
-                         <div class="fieldWrapper">
-                            {{ form.name.errors }}
-                            <label for="{{ form.name.id_for_label }}">Name :</label>
-                            <br>
-                            {{ form.name }}
-                         </div>
-                         <br>
-                        <div class="fieldWrapper">
-                            {{ form.email.errors }}
-                            <label for="{{ form.email.id_for_label }}">Email :</label>
-                            <br>
-                            {{ form.email }}
-                        </div>
-                        <br>
-                        <div class="fieldWrapper">
-                            {{ form.message.errors }}
-                            <label for="{{ form.message.id_for_label }}">Comments :</label>
-                            <br>
-                            {{ form.message }}
-                        </div>
-                        <br>
-                        <div class="row">
-                            <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                                <div class="form-group">
-                                    <button type="submit" class="btn btn-success">Submit</button>
-                                </div>
-                            </div>
-                        </div> -->
-
                         </div>
                     </div>
-                    <!-- <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                        <div class="contact-image">
-                            <div class="contact-address">
-                                <h4>Address</h4>
-                                <p>Phone: <a href="callto:01744430440">+88-01744-430-440</a></p>
-                                <p>Email: <a href="mailto:backpiper.com@gmail.com">backpiper.com@gmail.com</a></p>
-                                <address>
-                                    Office  :  29 road, Sec-08, Uttara-1204, Dhaka, Bangladesh.
-                                </address>
-                            </div>
-                            <div class="social-bookmark">
-                                <h4>Follow Us </h4>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
                 </div>
             </div>
@@ -206,53 +101,6 @@
             <div id="map" style="width: 100%; height: 400px;"> </div>
         </div>
      </section>
-
-     <!-- <h2>Contact Us</h2>
-     <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <input type="submit" value="Submit" />
-    </form> -->
-
-     <!-- <section class="about-area gray-bg section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-lg-4 col-sm-12 col-xs-12">
-                    <div class="quote-form-area wow fadeIn">
-                        <h3>Get A Quote</h3>
-                        <form class="quote-form" method="POST" action="" enctype="multipart/form-data">
-                            {% csrf_token %}
-                            {% for ele in form %}
-                            <p class="width-full">
-                                {{ele.errors}}
-                                {{ ele.label_tag }}
-                                {{ele}}
-                            </p>
-                            {% endfor %}
-                            <button type="submit">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-<!--
-    {% if messages %}
-<ul class="messages">
-    {% for message in messages %}
-    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-    {% endfor %}
-</ul>
-{% endif %}
-     <form method="post">
-    {% csrf_token %}
-    {{ form|crispy }}
-     <button type="submit" class="btn btn-primary">Submit</button>
-   </form> -->
-
-
-
-
 
     <!--FOOTER AREA-->
     {% include 'footer.html' %}

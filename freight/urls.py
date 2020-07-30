@@ -8,7 +8,6 @@ from freight.controller import services
 from freight.controller import error
 from freight.controller import contact
 from freight.controller import quote
-from freight.controller import privacy
 from freight.controller import terms
 
 urlpatterns = [
@@ -20,6 +19,5 @@ urlpatterns = [
     url(r'^error',error.error,name="error"),
     url(r'^contact',contact.contact,name="contact"),
     url(r'^quote',quote.quote,name="quote"),
-    url(r'^privacy',privacy.privacy,name="privacy"),
     url(r'^terms',terms.terms,name="terms"),
 ]
