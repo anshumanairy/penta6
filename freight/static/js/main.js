@@ -74,7 +74,7 @@ jQuery(document).on('ready', function ($) {
     /*---------------------------
         HOME SLIDER
     -----------------------------*/
-    var $homeSlider = $('.welcome-slider-area');
+    var $homeSlider = $('.slider');
     $homeSlider.owlCarousel({
         merge: true,
         smartSpeed: 2000,
