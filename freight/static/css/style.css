@@ -165,7 +165,7 @@ a {
     width: 100%;
 }
 
-.center_flexing {
+.flex-v-center {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -592,7 +592,7 @@ ul#nav li ul a,
     width: 100%;
 }
 
-.text_welcome h1 {
+.welcome-text h1 {
     color: #ffffff;
     font-size: 60px;
     letter-spacing: 5px;
@@ -601,18 +601,18 @@ ul#nav li ul a,
     text-transform: uppercase;
 }
 
-.text_welcome h4 {
+.welcome-text h4 {
     font-size: 20px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
 
-.button_home {
+.home-button {
     margin-top: 60px;
     height: auto !important;
 }
 
-.button_home a {
+.home-button a {
     border: 2px solid;
     border-radius: 3px;
     color: #fff;
@@ -621,11 +621,11 @@ ul#nav li ul a,
     text-transform: uppercase;
 }
 
-.button_home a:last-child {
+.home-button a:last-child {
     margin-left: 20px;
 }
 
-.button_home a:hover {
+.home-button a:hover {
     background: #f39c12 none repeat scroll 0 0;
     border-color: #f39c12;
     color: #ffffff;
@@ -639,22 +639,22 @@ ul#nav li ul a,
     2.4 WELCOME SLIDER AREA
 --------------------------------*/
 
-.slider {
+.welcome-slider-area {
     height: 100%;
     position: relative;
     z-index: 9;
 }
 
-.slider.owl-carousel div:not(.owl-controls) {
+.welcome-slider-area.owl-carousel div:not(.owl-controls) {
     height: 100%;
 }
 
-.slide {
+.welcome-single-slide {
     z-index: 9;
     position: relative;
 }
 
-.slide:before {
+.welcome-single-slide:before {
     background: #3c4147;
     content: "";
     height: 100%;
@@ -666,7 +666,7 @@ ul#nav li ul a,
     z-index: -1;
 }
 
-.slider .text_welcome {
+.welcome-slider-area .welcome-text {
     color: #FFFFFF;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -684,40 +684,40 @@ ul#nav li ul a,
     padding-top: 100px;
 }
 
-.text_welcome h4 {
+.welcome-text h4 {
     margin-bottom: 30px;
 }
 
-.text_welcome h2 {
+.welcome-text h2 {
     color: #fff;
     line-height: 1;
     margin-bottom: 30px;
 }
 
-.slider.button_home {
+.welcome-slider-area.home-button {
     height: auto !important;
 }
 
-.owl-item.active .slide .text_welcome h1 {
+.owl-item.active .welcome-single-slide .welcome-text h1 {
     -webkit-animation: 1s ease 0.5s normal both 1 running fadeInUp;
     animation: 1s ease 0.5s normal both 1 running fadeInUp;
 }
 
-.owl-item.active .slide .text_welcome p {
+.owl-item.active .welcome-single-slide .welcome-text p {
     -webkit-animation: 1s ease 0.8s normal both 1 running fadeInUp;
     animation: 1s ease 0.8s normal both 1 running fadeInUp;
 }
 
-.owl-item.active .slide .button_home {
+.owl-item.active .welcome-single-slide .home-button {
     -webkit-animation: 1s ease 1s normal both 1 running fadeInUp;
     animation: 1s ease 1s normal both 1 running fadeInUp;
 }
 
-.back-one {
+.slider-bg-one {
     background: url(/static/img/slider/slide_2.jpg) no-repeat scroll center center / cover;
 }
 
-.back-two {
+.slider-bg-two {
     background: url(/static/img/slider/slide_1.jpg) no-repeat scroll center center / cover;
 }
 
@@ -725,7 +725,7 @@ ul#nav li ul a,
     background: url(/static/img/slider/slide_3.jpg) no-repeat scroll center center / cover;
 }
 
-.slider.owl-carousel .owl-nav > div {
+.welcome-slider-area.owl-carousel .owl-nav > div {
     background: #fff none repeat scroll 0 0;
     display: inline-block;
     font-size: 30px;
@@ -738,13 +738,13 @@ ul#nav li ul a,
     width: 40px;
 }
 
-.slider.owl-carousel .owl-controls {
+.welcome-slider-area.owl-carousel .owl-controls {
     bottom: 7%;
     position: absolute;
     right: 8.4%;
 }
 
-.slider.owl-carousel .owl-nav > div:hover {
+.welcome-slider-area.owl-carousel .owl-nav > div:hover {
     background: #f39c12 none repeat scroll 0 0;
     color: #fff;
 }
@@ -1909,7 +1909,7 @@ a.scrolltotop:hover {
     opacity: 0.5;
 }
 
-.single-page .text_welcome h2 {
+.single-page .welcome-text h2 {
     margin-bottom: 10px;
 }
 

@@ -65,7 +65,7 @@
 
 @media only screen and (min-width: 1920px) {
 
-    .text_welcome h1 {
+    .welcome-text h1 {
         font-size: 60px;
     }
 
@@ -87,7 +87,7 @@
     .is-sticky ul#nav li a {
         padding: 22px 10px;
     }
-    .text_welcome h1 {
+    .welcome-text h1 {
         font-size: 45px;
     }
     .search-and-language-bar {
@@ -176,10 +176,10 @@
         display: none;
     }
     /*-----------------*/
-    .text_welcome {
+    .welcome-text {
         text-align: center;
     }
-    .text_welcome h1 {
+    .welcome-text h1 {
         font-size: 42px;
         letter-spacing: 2px;
     }
@@ -330,20 +330,20 @@
         top: 18px;
     }
     /*-----------------*/
-    .center_flexing {
+    .flex-v-center {
         -webkit-box-align: inherit;
         -ms-flex-align: inherit;
         align-items: inherit;
         display: inherit;
     }
-    .text_welcome {
+    .welcome-text {
         text-align: center;
     }
-    .text_welcome h1 {
+    .welcome-text h1 {
         font-size: 20px;
         letter-spacing: 1px;
     }
-    .button_home {
+    .home-button {
         display: none;
     }
     .search-and-language-bar {
