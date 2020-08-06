@@ -28,11 +28,12 @@ def contact(request):
             sender_name = form.cleaned_data['name']
             sender_email = form.cleaned_data['email']
             message = "{0} has sent you a new message:\n\n{1}".format(sender_name, form.cleaned_data['message'])
-            send_mail('New Enquiry', message, sender_email, ['github.furniture@gmail.com'], fail_silently=False)
+            send_mail('New Enquiry', message, sender_email, ['cs@pentasixbright.com'], fail_silently=False)
             messages.add_message(request, messages.SUCCESS, 'Thanks for your feedback!!')
             # form = ContactForm()
             # return render(request, 'contact.html', {'form': form})
             # return render(request, 'index.html')
+            print("Send")
             return redirect("contact")
     else:
         form = ContactForm()
