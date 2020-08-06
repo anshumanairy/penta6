@@ -18,6 +18,7 @@ from django.utils.timezone import utc
 from django.utils import timezone
 from freight.forms.quoteform import QuoteForm
 from freight.models.quotes import Country
+from django.contrib import messages
 
 
 def quote(request):
@@ -26,5 +27,6 @@ def quote(request):
     if form.is_valid():
         obj=form.save()
         print(obj)
+        messages.add_message(request, messages.SUCCESS, 'We will Contact You Soon!!')
         return redirect('/quote')
     return render(request,'quote.html/',context)

@@ -242,6 +242,10 @@ class Quotes(models.Model):
     ctr_code=models.CharField(max_length=10)
     phone=models.CharField(max_length=30)
     q_message=models.TextField(max_length=400)
+    timestamp = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-timestamp']
 
     @staticmethod
     def get_countries():
