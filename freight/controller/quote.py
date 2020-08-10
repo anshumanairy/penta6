@@ -19,6 +19,8 @@ from django.utils import timezone
 from freight.forms.quoteform import QuoteForm
 from freight.models.quotes import Country
 from django.contrib import messages
+from django.core.mail import send_mail
+from penta6 import settings
 
 
 def quote(request):
@@ -26,7 +28,19 @@ def quote(request):
     context={"form":form}
     if form.is_valid():
         obj=form.save()
-        print(obj)
+        sender_email = settings.EMAIL_HOST_USER
         messages.add_message(request, messages.SUCCESS, 'We will Contact You Soon!!')
+        print(sender_email)
+        message = """
+        Hi Customer,
+
+                   Your Quote has been received. Your Details are as follows:
+
+                    We will contact you shortly.
+
+        Regards,
+        PentaSix Bright
+        """
+        send_mail('Welcome to PentaSix Bright', message, sender_email, [obj.email], fail_silently=False)
         return redirect('/quote')
     return render(request,'quote.html/',context)

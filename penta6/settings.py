@@ -117,13 +117,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # EMAIL_HOST_PASSWORD = 'Shadow0427@' # new
 # EMAIL_PORT = 587 # new
 
-EMAIL_USE_TLS = True
+EMAIL_USE_SSL = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtpout.secureserver.net' # new
 EMAIL_HOST_USER = 'cs@pentasixbright.com' # new
 EMAIL_HOST_PASSWORD = 'Shadow0427@' # new
 DEFAULT_FROM_EMAIL = 'cs@pentasixbright.com'
-EMAIL_PORT = 80 # new
+EMAIL_PORT = 465 # new
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
