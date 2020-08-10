@@ -344,7 +344,7 @@
         letter-spacing: 1px;
     }
     .home-button-style {
-        display: none;
+        /*display: none;*/
     }
     .search-and-language {
         display: none;
