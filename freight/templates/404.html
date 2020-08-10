@@ -20,7 +20,7 @@
                         <div class="welcome-text-style text-center">
                             <h2>Error 404</h2>
                             <ul class="page-location">
-                                <li><a href="#">Home</a></li>
+                                <li><a href="{% url 'index' %}">Home</a></li>
                                 <li>/</li>
                                 <li><a href="#">404</a></li>
                             </ul>
@@ -41,7 +41,7 @@
                         <img src="/static/img/404.png" alt="">
                         <h3>page not found</h3>
                         <h2>Opps !</h2>
-                        <a href="#" class="read-more">Back To Home</a>
+                        <a href="{% url 'index' %}" class="read-more">Back To Home</a>
                     </div>
                 </div>
             </div>
