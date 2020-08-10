@@ -6,18 +6,18 @@
 <body class="single-page">
 
     <!--SCROLL TO TOP-->
-    <a href="#home" class="scrolltotop"><i class="fa fa-long-arrow-up"></i></a>
+    <a href="#home" class="scroll-to-top"><i class="fa fa-long-arrow-up"></i></a>
 
     <!--START TOP AREA-->
-    <header class="top-area single-page" id="home">
+    <header class="welcome-area-style single-page" id="home">
         {% block navbar %}
         {% endblock %}
-        <div class="welcome-area">
+        <div class="welcome-area-style">
             <div class="area-bg"></div>
             <div class="container">
                 <div class="row flex-v-center" style="padding-top:15em;">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <div class="welcome-text text-center">
+                        <div class="welcome-text-style text-center">
                             <h2>Contact Us</h2>
                             <ul class="page-location">
                                 <li><a href="{% url 'index' %}">Home</a></li>
@@ -34,7 +34,7 @@
     <!--END TOP AREA-->
 
     <!--CONTACT US AREA-->
-    <section class="contact-area" id="contact">
+    <section class="contact-area-style" id="contact">
         <div class="contact-form-area section-padding gray-bg">
             <div class="container">
               <div style="width=100%;">
@@ -58,7 +58,7 @@
                 <div class="row">
                   <div class="col-md-8 col-lg-8 col-sm-12 col-xs-12" style="background-image: url('/static/img/contact1.jpg');background-size:100% 100%;border-radius:10px; width:40%; height:38em; padding-left:50px;">
                       <div class="contact-image">
-                          <div class="contact-address">
+                          <div class="contact-address-style-style">
                             <div style="margin:60px;">
                               <h4 style="color:white;">Address</h4>
                               <br>
@@ -97,29 +97,11 @@
                 </div>
             </div>
         </div>
-        <div class="map-area relative">
-            <div id="map" style="width: 100%; height: 400px;"> </div>
-        </div>
      </section>
 
     <!--FOOTER AREA-->
     {% include 'footer.html' %}
 
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTS_KEDfHXYBslFTI_qPJIybDP3eceE-A&sensor=false"></script>
-    <script src="/static/js/maps.active.js"></script>
-    <script>
-    $(document).ready(function() {
-        // messages timeout for 10 sec
-        setTimeout(function() {
-            $('.messages').fadeOut('slow');
-        }, 3000); // <-- time in milliseconds, 1000 =  1 sec
-
-        // delete message
-        $('.del-msg').live('click',function(){
-            $('.del-msg').parent().attr('style', 'display:none;');
-        })
-    });
-</script>
 </body>
 
 {% endblock %}

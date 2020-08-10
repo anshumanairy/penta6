@@ -344,13 +344,13 @@ input:-webkit-autofill:focus {
     2. TOP AREA
 ---------------------------*/
 
-.top-area {
+.welcome-area-style {
     height: 100%;
     position: relative;
     width: 100%;
 }
 
-.top-area-bg {
+.welcome-area-style-bg {
     background: rgba(0, 0, 0, 0) url("/static/img/slider/slide_1.jpg") no-repeat scroll center center / cover;
     height: 100%;
     left: 0;
@@ -359,7 +359,7 @@ input:-webkit-autofill:focus {
     width: 100%;
 }
 
-.top-area-bg::after {
+.welcome-area-style-bg::after {
     background: #3c4147;
     content: "";
     height: 100%;
@@ -375,7 +375,7 @@ input:-webkit-autofill:focus {
     2.1. SEARCH AND LANGUAGE
 ----------------------------------*/
 
-.search-and-language-bar {
+.search-and-language {
     margin-left: 20px;
     margin-top: 30px;
     position: relative;
@@ -384,11 +384,11 @@ input:-webkit-autofill:focus {
 
 }
 
-.is-sticky .search-and-language-bar {
+.is-sticky .search-and-language {
     margin-top: 10px;
 }
 
-.search-and-language-bar ul li {
+.search-and-language ul li {
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -396,16 +396,16 @@ input:-webkit-autofill:focus {
     padding: 10px;
 }
 
-.search-and-language-bar ul li a {
+.search-and-language ul li a {
     color: #fff;
     display: block;
 }
 
-.search-box {
+.search-box-style {
     position: relative;
 }
 
-.search-form {
+.search-form-style {
     background: #fff none repeat scroll 0 0;
     border-radius: 5px;
     top: 72px;
@@ -416,11 +416,11 @@ input:-webkit-autofill:focus {
     display: none;
 }
 
-.is-sticky .search-form {
+.is-sticky .search-form-style {
     top: 50px;
 }
 
-.search-form input {
+.search-form-style input {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
     border: 1px solid #f39c12;
     color: #333;
@@ -432,7 +432,7 @@ input:-webkit-autofill:focus {
     width: 77%;
 }
 
-.search-form button {
+.search-form-style button {
     background: transparent none repeat scroll 0 0;
     border: 1px solid #f39c12;
     color: #f39c12;
@@ -446,7 +446,7 @@ input:-webkit-autofill:focus {
     transition: all 0.3s ease 0s;
 }
 
-.search-form button:hover {
+.search-form-style button:hover {
     background: #f39c12 none repeat scroll 0 0;
     color: #fff;
 }
@@ -465,7 +465,7 @@ input:-webkit-autofill:focus {
     2.2 MAINMENU AREA
 -----------------------------------*/
 
-.header-top-area {
+.header-area-style {
     left: 0;
     position: absolute;
     top: 0;
@@ -473,7 +473,7 @@ input:-webkit-autofill:focus {
     z-index: 999;
 }
 
-.mainmenu-area {
+.mainmenu-area-style {
     border-bottom: 1px solid rgba(243, 156, 18, .4);
     position: relative;
     -webkit-transition: all 0.3s ease 0s;
@@ -481,7 +481,7 @@ input:-webkit-autofill:focus {
     z-index: 9999;
 }
 
-.navbar-header {
+.navbar-header-style {
     margin-top: 14px;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -533,11 +533,11 @@ ul#nav li.active a {
     color: #f39c12;
 }
 
-.is-sticky .navbar-header {
+.is-sticky .navbar-header-style {
     margin-top: -2px;
 }
 
-.is-sticky .mainmenu-area {
+.is-sticky .mainmenu-area-style {
     background: #212121;
     -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28);
@@ -572,7 +572,7 @@ ul#nav li ul a,
     2.3 WELCOME TEXT AREA
 -------------------------------------*/
 
-.welcome-area {
+.welcome-area-style {
     color: #ffffff;
     -webkit-box-align: end;
     -ms-flex-align: end;
@@ -592,7 +592,7 @@ ul#nav li ul a,
     width: 100%;
 }
 
-.welcome-text h1 {
+.welcome-text-style h1 {
     color: #ffffff;
     font-size: 60px;
     letter-spacing: 5px;
@@ -601,18 +601,18 @@ ul#nav li ul a,
     text-transform: uppercase;
 }
 
-.welcome-text h4 {
+.welcome-text-style h4 {
     font-size: 20px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
 
-.home-button {
+.home-button-style {
     margin-top: 60px;
     height: auto !important;
 }
 
-.home-button a {
+.home-button-style a {
     border: 2px solid;
     border-radius: 3px;
     color: #fff;
@@ -621,11 +621,11 @@ ul#nav li ul a,
     text-transform: uppercase;
 }
 
-.home-button a:last-child {
+.home-button-style a:last-child {
     margin-left: 20px;
 }
 
-.home-button a:hover {
+.home-button-style a:hover {
     background: #f39c12 none repeat scroll 0 0;
     border-color: #f39c12;
     color: #ffffff;
@@ -649,12 +649,12 @@ ul#nav li ul a,
     height: 100%;
 }
 
-.welcome-single-slide {
+.welcome-slide {
     z-index: 9;
     position: relative;
 }
 
-.welcome-single-slide:before {
+.welcome-slide:before {
     background: #3c4147;
     content: "";
     height: 100%;
@@ -666,7 +666,7 @@ ul#nav li ul a,
     z-index: -1;
 }
 
-.welcome-slider-area .welcome-text {
+.welcome-slider-area .welcome-text-style {
     color: #FFFFFF;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -684,31 +684,31 @@ ul#nav li ul a,
     padding-top: 100px;
 }
 
-.welcome-text h4 {
+.welcome-text-style h4 {
     margin-bottom: 30px;
 }
 
-.welcome-text h2 {
+.welcome-text-style h2 {
     color: #fff;
     line-height: 1;
     margin-bottom: 30px;
 }
 
-.welcome-slider-area.home-button {
+.welcome-slider-area.home-button-style {
     height: auto !important;
 }
 
-.owl-item.active .welcome-single-slide .welcome-text h1 {
+.owl-item.active .welcome-slide .welcome-text-style h1 {
     -webkit-animation: 1s ease 0.5s normal both 1 running fadeInUp;
     animation: 1s ease 0.5s normal both 1 running fadeInUp;
 }
 
-.owl-item.active .welcome-single-slide .welcome-text p {
+.owl-item.active .welcome-slide .welcome-text-style p {
     -webkit-animation: 1s ease 0.8s normal both 1 running fadeInUp;
     animation: 1s ease 0.8s normal both 1 running fadeInUp;
 }
 
-.owl-item.active .welcome-single-slide .home-button {
+.owl-item.active .welcome-slide .home-button-style {
     -webkit-animation: 1s ease 1s normal both 1 running fadeInUp;
     animation: 1s ease 1s normal both 1 running fadeInUp;
 }
@@ -753,14 +753,14 @@ ul#nav li ul a,
     3. BLOG AREA
 ------------------------------ */
 
-.single-blog {
+.single-blog-style {
     border-radius: 5px;
     -webkit-box-shadow: 0 3px 7px #ddd;
     box-shadow: 0 3px 7px #ddd;
     overflow: hidden;
 }
 
-.blog-details {
+.blog-details-style {
     background: #fff none repeat scroll 0 0;
     padding: 30px 20px;
     position: relative;
@@ -786,7 +786,7 @@ ul#nav li ul a,
     width: 100%;
 }
 
-.blog-details h3 {
+.blog-details-style h3 {
     font-size: 18px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -810,12 +810,12 @@ ul#nav li ul a,
     color: #fff;
 }
 
-.blog-details h3 a {
+.blog-details-style h3 a {
     color: #3c4a62;
 }
 
-.blog-details h3 a:hover,
-.blog-details h3 a:focus {
+.blog-details-style h3 a:hover,
+.blog-details-style h3 a:focus {
     color: #f39c12;
 }
 
@@ -823,28 +823,28 @@ ul#nav li ul a,
     4. ABOUT AREA
 ------------------------------ */
 
-.quote-form-area {
+.quote-form-style-area {
     background: #eef1f5 none repeat scroll 0 0;
     padding: 30px 20px;
 }
 
-.quote-form input {
+.quote-form-style input {
     margin-bottom: 10px;
 }
 
-.quote-form .width-full input {
+.quote-form-style .width-full input {
     border: 0 none;
     padding: 10px;
     width: 100%;
 }
 
-.quote-form .width-half input {
+.quote-form-style .width-half input {
     border: 0 none;
     padding: 10px;
     width: 47%;
 }
 
-.quote-form textarea {
+.quote-form-style textarea {
     border: 0 none;
     height: 120px;
     margin-bottom: 10px;
@@ -853,7 +853,7 @@ ul#nav li ul a,
 }
 
 
-.quote-form button {
+.quote-form-style button {
     background: #5d6b82 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 5px;
@@ -865,7 +865,7 @@ ul#nav li ul a,
     transition: all 0.3s ease 0s;
 }
 
-.quote-form button:hover {
+.quote-form-style button:hover {
     background: #f39c12;
     color: #fff;
 }
@@ -915,14 +915,14 @@ ul#nav li ul a,
     5. SERVICE AREA
 ------------------------------- */
 
-.service-content h2 {
+.service-content-style h2 {
     font-size: 32px;
     margin-bottom: 30px;
     padding-bottom: 15px;
     position: relative;
 }
 
-.service-content h2::after {
+.service-content-style h2::after {
     border-bottom: 1px dashed rgb(243, 156, 18);
     bottom: 0;
     content: "";
@@ -932,7 +932,7 @@ ul#nav li ul a,
     width: 50px;
 }
 
-.service-catalouge-content-area {
+.service-catalouge-content {
     background: rgba(0, 0, 0, 0) url("/static/img/service/service-cargo-bg.png") no-repeat scroll center center / contain;
     position: relative;
 }
@@ -982,11 +982,11 @@ ul#nav li ul a,
     6. SERVIE BOTTOM AREA
 ----------------------------- */
 
-.service-bottom-area {
+.service-bottom {
     position: relative;
 }
 
-.service-bottom-area-bg {
+.service-bottom-bg {
     background: rgba(0, 0, 0, 0) url("/static/img/service/service-area-bg.jpg") repeat scroll 0 0;
     height: 100%;
     left: 0;
@@ -995,7 +995,7 @@ ul#nav li ul a,
     width: 100%;
 }
 
-.service-bottom-area-bg::after {
+.service-bottom-bg::after {
     background: #f5f7f9 none repeat scroll 0 0;
     content: "";
     height: 100%;
@@ -1123,7 +1123,7 @@ ul#nav li ul a,
     7. PROMO AREA
 ----------------------------- */
 
-.promo-top-area {
+.promo-welcome-area-style {
     background: rgba(0, 0, 0, 0) url("/static/img/promo/promo_top_bg.png") no-repeat scroll right 5% bottom 50% / 40% auto;
 }
 
@@ -1204,13 +1204,13 @@ ul#nav li ul a,
     9. TESTMONIAL AREA
 -------------------------------*/
 
-.client-photo-list .item {
+.client-photo .item {
     border-radius: 50%;
     overflow: hidden;
     margin: 10px 0;
 }
 
-.client-photo-list .owl-carousel .owl-item.active.center .item {
+.client-photo .owl-carousel .owl-item.active.center .item {
     -webkit-box-shadow: 0 0 0 5px #f39c12;
     box-shadow: 0 0 0 5px #f39c12;
     position: relative;
@@ -1219,16 +1219,16 @@ ul#nav li ul a,
     transition: 0.3s;
 }
 
-.client-photo-list {
+.client-photo {
     margin-bottom: 40px;
 }
 
-.client-details-content .item {
+.client-details .item {
     padding-top: 70px;
     position: relative;
 }
 
-.client-details-content .item::after {
+.client-details .item::after {
     color: #5d6b82;
     content: "\f10d";
     font-family: fontawesome;
@@ -1244,7 +1244,7 @@ ul#nav li ul a,
     width: 60px;
 }
 
-.client-details-content .item q {
+.client-details .item q {
     display: block;
     font-size: 16px;
     font-style: italic;
@@ -1253,11 +1253,11 @@ ul#nav li ul a,
     margin-bottom: 37px;
 }
 
-.client-details-content .item h3 {
+.client-details .item h3 {
     margin-bottom: 10px;
 }
 
-.client_nav span {
+.client-nav span {
     background: #5d6b82 none repeat scroll 0 0;
     border-radius: 5px;
     color: #fff;
@@ -1275,21 +1275,21 @@ ul#nav li ul a,
     cursor: pointer;
 }
 
-.client_nav span:hover {
+.client-nav span:hover {
     background: #f39c12;
 }
 
-.client_nav span.fa.testi_next {
+.client-nav span.fa.testi_next {
     left: auto;
     right: 50px;
 }
 
-.testmonial-area:hover .client_nav span {
+.testmonial-area-style:hover .client-nav span {
     left: 0;
     opacity: 1;
 }
 
-.testmonial-area:hover .client_nav span.testi_next {
+.testmonial-area-style:hover .client-nav span.testi_next {
     left: auto;
     right: 0;
 }
@@ -1298,12 +1298,12 @@ ul#nav li ul a,
     10. FOOTER AREA
 ------------------------------- */
 
-.footer-top-area {
+.footer-style {
     padding: 70px 0;
 }
 
-.footer-area h2,
-.footer-area h3 {
+.footer-area-style h2,
+.footer-area-style h3 {
     color: #fff;
     font-weight: 500;
     text-transform: capitalize;
@@ -1314,12 +1314,12 @@ ul#nav li ul a,
     margin-bottom: 20px;
 }
 
-.subsriber-form {
+.subsriber-form-style {
     height: 60px;
     position: relative;
 }
 
-.subsriber-form input {
+.subsriber-form-style input {
     background: #fff none repeat scroll 0 0;
     border: 0 none;
     border-radius: 5px;
@@ -1332,7 +1332,7 @@ ul#nav li ul a,
     width: 70%;
 }
 
-.subsriber-form button {
+.subsriber-form-style button {
     background: #f39c12 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 5px;
@@ -1349,7 +1349,7 @@ ul#nav li ul a,
     width: 27%;
 }
 
-.subsriber-form button:hover {
+.subsriber-form-style button:hover {
     background: #fff none repeat scroll 0 0;
     color: #f39c12;
 }
@@ -1358,21 +1358,21 @@ ul#nav li ul a,
     11. FAQS AREA
 ------------------------------- */
 
-.faqs-list h3 {
+.faqs-list-style h3 {
     margin-bottom: 30px;
 }
 
-.faqs-list h3 span {
+.faqs-list-style h3 span {
     color: #f39c12;
 }
 
-.faqs-list #accordion .panel-title {
+.faqs-list-style #accordion .panel-title {
     padding-left: 50px;
     position: relative;
     text-transform: capitalize;
 }
 
-.faqs-list #accordion .panel-title i {
+.faqs-list-style #accordion .panel-title i {
     background: #f39c12 none repeat scroll 0 0;
     color: #fff;
     height: 30px;
@@ -1385,7 +1385,7 @@ ul#nav li ul a,
     width: 30px;
 }
 
-.faqs-list #accordion .panel-title i::after {
+.faqs-list-style #accordion .panel-title i::after {
     background: #fff none repeat scroll 0 0;
     content: "";
     height: 12px;
@@ -1400,13 +1400,13 @@ ul#nav li ul a,
     width: 3px;
 }
 
-.faqs-list #accordion .active .panel-title i::after {
+.faqs-list-style #accordion .active .panel-title i::after {
     opacity: 1;
     ;
 }
 
-.faqs-list #accordion .panel,
-.faqs-list #accordion .panel.active {
+.faqs-list-style #accordion .panel,
+.faqs-list-style #accordion .panel.active {
     border-bottom: 0 none;
     -webkit-box-shadow: 0 0 0 #fff;
     box-shadow: 0 0 0 #fff;
@@ -1425,17 +1425,17 @@ ul#nav li ul a,
     12. ABOUT DETAILS CONTENT AREA
 -------------------------------- */
 
-.about-details-menu {
+.about-details {
     margin-bottom: 50px;
     text-align: center;
 }
 
-.about-details-menu li {
+.about-details li {
     display: inline-block;
     margin: 0 5px;
 }
 
-.about-details-menu li a {
+.about-details li a {
     border: 1px solid #efefef;
     display: block;
     font-size: 18px;
@@ -1443,22 +1443,22 @@ ul#nav li ul a,
     text-transform: uppercase;
 }
 
-.about-details-menu li.active a {
+.about-details li.active a {
     background: #f39c12 none repeat scroll 0 0;
     border-color: #f39c12;
     color: #fff;
 }
 
-.about-history-content {
+.about-history-style {
     margin-bottom: 50px;
 }
 
-.about-history-content h3 {
+.about-history-style h3 {
     margin-bottom: 30px;
     padding-bottom: 15px;
 }
 
-.about-history-content h3::after {
+.about-history-style h3::after {
     border-bottom: 1px dashed #f39c12;
     bottom: 0;
     content: "";
@@ -1468,19 +1468,19 @@ ul#nav li ul a,
     width: 50px;
 }
 
-.about-history-content ul {
+.about-history-style ul {
     margin-top: 20px;
 }
 
-.about-history-content ul li {
+.about-history-style ul li {
     margin-bottom: 5px;
 }
 
-.about-history-content.history-list {
+.about-history-style.history-list {
     position: relative;
 }
 
-.about-history-content.history-list::after {
+.about-history-style.history-list::after {
     background: #e4e4e4;
     content: "";
     height: 100%;
@@ -1490,13 +1490,13 @@ ul#nav li ul a,
     width: 5px;
 }
 
-.single-history {
+.single-history-style {
     margin-bottom: 50px;
     padding-left: 125px;
     position: relative;
 }
 
-.single-history .history-year {
+.single-history-style .history-year {
     font-size: 18px;
     font-weight: 700;
     left: 0;
@@ -1505,8 +1505,8 @@ ul#nav li ul a,
     width: 85px;
 }
 
-.single-history .history-year::before,
-.single-history .history-year::after {
+.single-history-style .history-year::before,
+.single-history-style .history-year::after {
     background: #fff none repeat scroll 0 0;
     border-radius: 50%;
     content: "";
@@ -1518,7 +1518,7 @@ ul#nav li ul a,
     z-index: 9;
 }
 
-.single-history .history-year::after {
+.single-history-style .history-year::after {
     background: #f39c12;
     height: 10px;
     right: -2px;
@@ -1659,25 +1659,25 @@ ul#nav li ul a,
     17. CONTACT AREA
 -------------------------------*/
 
-.contact-address {
+.contact-address-style {
     margin-bottom: 50px;
 }
 
-.contact-address a {
+.contact-address-style a {
     color: #585858;
 }
 
-.contact-address a:hover {
+.contact-address-style a:hover {
     color: #f39c12;
 }
 
-.contact-area .form-control {
+.contact-area-style .form-control {
     border-radius: 0;
     margin-bottom: 30px;
     min-height: 40px;
 }
 
-.contact-area button {
+.contact-area-style button {
     background: #5d6b82 none repeat scroll 0 0;
     border: 0 none;
     border-radius: 3px;
@@ -1690,7 +1690,7 @@ ul#nav li ul a,
     transition: all 0.3s ease 0s;
 }
 
-.contact-area button:hover {
+.contact-area-style button:hover {
     background: #f39c12 none repeat scroll 0 0;
     color: #fff;
 }
@@ -1699,13 +1699,13 @@ ul#nav li ul a,
     18. FOOTER AREA
 -------------------------------*/
 
-.footer-area {
+.footer-area-style {
     color: #ffffff;
     position: relative;
     z-index: 9;
 }
 
-.footer-area::after {
+.footer-area-style::after {
     background: rgba(0, 0, 0, 0) url("/static/img/footer-map-bg.png") no-repeat scroll center center / 90% auto;
     content: "";
     height: 100%;
@@ -1723,21 +1723,21 @@ ul#nav li ul a,
     margin-top: 50px;
 }
 
-.single-footer-widget {
+.single-footer-widget-style {
     margin-bottom: 50px;
     overflow: hidden;
 }
 
-.single-footer-widget,
-.single-footer-widget a {
+.single-footer-widget-style,
+.single-footer-widget-style a {
     color: #a1a7b2;
 }
 
-.single-footer-widget a:hover {
+.single-footer-widget-style a:hover {
     color: #f39c12;
 }
 
-.single-footer-widget h3 {
+.single-footer-widget-style h3 {
     font-size: 20px;
     letter-spacing: 1px;
     margin-bottom: 40px;
@@ -1745,7 +1745,7 @@ ul#nav li ul a,
     position: relative;
 }
 
-.single-footer-widget h3::after {
+.single-footer-widget-style h3::after {
     border-bottom: 1px dashed #f39c12;
     bottom: 0;
     content: "";
@@ -1755,53 +1755,53 @@ ul#nav li ul a,
     width: 50px;
 }
 
-.single-footer-widget.footer-about ul {
+.single-footer-widget-style.footer-about ul {
     margin-top: 30px;
 }
 
-.single-footer-widget.footer-about ul li {
+.single-footer-widget-style.footer-about ul li {
     margin-bottom: 10px;
 }
 
-.single-footer-widget.footer-about ul li i {
+.single-footer-widget-style.footer-about ul li i {
     border-right: 1px solid;
     margin-right: 10px;
     width: 20px;
 }
 
-.single-footer-widget.twitter-widget ul li {
+.single-footer-widget-style.twitter-widget ul li {
     margin-bottom: 20px;
     padding-left: 30px;
     position: relative;
 }
 
-.single-footer-widget.twitter-widget ul li .twitter-icon {
+.single-footer-widget-style.twitter-widget ul li .twitter-icon {
     color: #f39c12;
     left: 0;
     position: absolute;
 }
 
-.single-footer-widget.list-widget ul li {
+.single-footer-widget-style.list-widget ul li {
     letter-spacing: 1px;
     margin-bottom: 10px;
     position: relative;
 }
 
-.single-footer-widget.list-widget ul li::before {
+.single-footer-widget-style.list-widget ul li::before {
     content: "\f0a4";
     display: inline-block;
     font-family: fontawesome;
     margin-right: 15px;
 }
 
-.single-footer-widget.instafeed-widget li {
+.single-footer-widget-style.instafeed-widget li {
     float: left;
     margin-bottom: 2%;
     margin-right: 2%;
     width: 31.33%;
 }
 
-.footer-bottom-area .footer-border {
+.footer-bottom .footer-border {
     margin: 0;
 }
 
@@ -1849,7 +1849,7 @@ ul#nav li ul a,
     19. SCROLL TO TOP
 -------------------------------*/
 
-a.scrolltotop {
+a.scroll-to-top {
     background: #f39c12 none repeat scroll 0 0;
     bottom: 20px;
     -webkit-box-shadow: 0 0 0 7px transparent;
@@ -1866,7 +1866,7 @@ a.scrolltotop {
     z-index: 99;
 }
 
-a.scrolltotop:hover {
+a.scroll-to-top:hover {
     -webkit-box-shadow: 0 0 0 0 #272727;
     box-shadow: 0 0 0 0 #272727;
     background: #272727;
@@ -1876,15 +1876,15 @@ a.scrolltotop:hover {
     20. WELCOME SLIDER AREA
 -------------------------------------*/
 
-.home-two .single-blog {
+.home-two .single-blog-style {
     margin-top: -244px;
 }
 
-.home-two .welcome-area {
+.home-two .welcome-area-style {
     padding-bottom: 200px;
 }
 
-.home-two .blog-area.blog-bottom .single-blog {
+.home-two .blog-area.blog-bottom .single-blog-style {
     margin-top: 0;
 }
 
@@ -1892,24 +1892,24 @@ a.scrolltotop:hover {
     padding-bottom: 50px;
 }
 
-.home-four .promo-top-area.section-padding {
+.home-four .promo-welcome-area-style.section-padding {
     background: inherit;
     padding-bottom: 50px;
 }
 
-.home-four .service-bottom-area-bg {
+.home-four .service-bottom-bg {
     background: rgba(0, 0, 0, 0) url("/static/img/service/service-area-bg-2.jpg") repeat scroll 0 0;
 }
 
-.top-area.single-page {
+.welcome-area-style.single-page {
     height: 500px;
 }
 
-.single-page .top-area-bg::after {
+.single-page .welcome-area-style-bg::after {
     opacity: 0.5;
 }
 
-.single-page .welcome-text h2 {
+.single-page .welcome-text-style h2 {
     margin-bottom: 10px;
 }
 
@@ -1927,25 +1927,25 @@ a.scrolltotop:hover {
     21. BLOG PAGE
 ------------------------------------- */
 
-.blog-page .single-blog {
+.blog-page-style .single-blog-style {
     border-radius: 0;
     margin-bottom: 50px;
 }
 
-.blog-page .single-blog .post-date {
+.blog-page-style .single-blog-style .post-date {
     margin-bottom: 20px;
     margin-top: -10px;
 }
 
-.blog-page .single-blog .post-date a i {
+.blog-page-style .single-blog-style .post-date a i {
     margin-right: 10px;
 }
 
-.blog-page .single-blog .post-date a:hover {
+.blog-page-style .single-blog-style .post-date a:hover {
     color: #f39c12;
 }
 
-.blog-page .blog-image img {
+.blog-page-style .blog-image img {
     width: 100%;
 }
 
@@ -1985,14 +1985,14 @@ a.scrolltotop:hover {
     padding-bottom: 10px;
 }
 
-.widget_search form {
+.widget-search form {
     border: 1px solid #ddd;
     height: 40px;
     position: relative;
     width: 100%;
 }
 
-.widget_search form input {
+.widget-search form input {
     border: 0 none;
     height: 100%;
     left: 0;
@@ -2002,7 +2002,7 @@ a.scrolltotop:hover {
     width: 100%;
 }
 
-.widget_search form button {
+.widget-search form button {
     background: #5d6b82 none repeat scroll 0 0;
     border: 0 none;
     color: #fff;
@@ -2015,7 +2015,7 @@ a.scrolltotop:hover {
     width: 50px;
 }
 
-.widget_search form button:hover,
+.widget-search form button:hover,
 .tagcloud a:hover {
     background: #f39c12 none repeat scroll 0 0;
     color: #fff;
@@ -2167,11 +2167,11 @@ blockquote::before {
     width: 100%;
 }
 
-.service-details-text {
+.service-details-style {
     margin-bottom: 50px;
 }
 
-.service-menu h4 {
+.service-menu-style h4 {
     background: #f39c12 none repeat scroll 0 0;
     color: #fff;
     margin-bottom: 0;
@@ -2179,26 +2179,26 @@ blockquote::before {
     text-align: center;
 }
 
-.service-menu ul {
+.service-menu-style ul {
     border: 1px solid #ddd;
 }
 
-.service-menu > ul li {
+.service-menu-style > ul li {
     border-top: 1px dashed #ddd;
     display: block;
     margin-top: -1px;
 }
 
-.service-menu ul li a {
+.service-menu-style ul li a {
     display: block;
     padding: 10px 20px;
 }
 
-.service-menu ul li a i {
+.service-menu-style ul li a i {
     float: right;
 }
 
-.service-menu ul li a:hover {
+.service-menu-style ul li a:hover {
     color: #f39c12;
 }
 
@@ -2206,14 +2206,14 @@ blockquote::before {
     23. 404 ERROR PAGE
 -------------------------------*/
 
-.error-content img {
+.error-content-style img {
     margin-bottom: 40px;
 }
 
-.error-content h3 {}
+.error-content-style h3 {}
 
-.error-content h2,
-.error-content h3 {
+.error-content-style h2,
+.error-content-style h3 {
     letter-spacing: 1px;
     text-transform: capitalize;
 }

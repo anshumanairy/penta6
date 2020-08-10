@@ -21,3 +21,5 @@ urlpatterns = [
     url(r'^quote',quote.quote,name="quote"),
     url(r'^terms',terms.terms,name="terms"),
 ]
+
+handler404 = error.error

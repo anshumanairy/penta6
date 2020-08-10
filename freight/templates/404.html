@@ -6,21 +6,21 @@
 <body class="single-page">
 
     <!--SCROLL TO TOP-->
-    <a href="#home" class="scrolltotop"><i class="fa fa-long-arrow-up"></i></a>
+    <a href="#home" class="scroll-to-top"><i class="fa fa-long-arrow-up"></i></a>
 
     <!--START TOP AREA-->
-    <header class="top-area single-page" id="home">
+    <header class="welcome-area-style single-page" id="home">
         {% block navbar %}
         {% endblock %}
-        <div class="welcome-area">
+        <div class="welcome-area-style">
             <div class="area-bg"></div>
             <div class="container">
                 <div class="row flex-v-center">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <div class="welcome-text text-center">
+                        <div class="welcome-text-style text-center">
                             <h2>Error 404</h2>
                             <ul class="page-location">
-                                <li><a href="#">Home</a></li>
+                                <li><a href="{% url 'index' %}">Home</a></li>
                                 <li>/</li>
                                 <li><a href="#">404</a></li>
                             </ul>
@@ -37,11 +37,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-lg-8 col-md-offset-2 col-lg-offset-2 col-sm-12 col-xs-12">
-                    <div class="error-content text-center">
+                    <div class="error-content-style text-center">
                         <img src="/static/img/404.png" alt="">
                         <h3>page not found</h3>
                         <h2>Opps !</h2>
-                        <a href="#" class="read-more">Back To Home</a>
+                        <a href="{% url 'index' %}" class="read-more">Back To Home</a>
                     </div>
                 </div>
             </div>

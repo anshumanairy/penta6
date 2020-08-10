@@ -18,5 +18,5 @@ from django.utils.timezone import utc
 from django.utils import timezone
 
 
-def error(request):
+def error(request,exception):
     return render(request,'404.html/',{})

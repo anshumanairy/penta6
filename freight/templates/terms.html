@@ -6,23 +6,23 @@
 <body class="single-page">
 
     <!--SCROLL TO TOP-->
-    <a href="#home" class="scrolltotop"><i class="fa fa-long-arrow-up"></i></a>
+    <a href="#home" class="scroll-to-top"><i class="fa fa-long-arrow-up"></i></a>
 
     <!--START TOP AREA-->
-    <header class="top-area single-page" id="home">
+    <header class="welcome-area-style single-page" id="home">
         {% block navbar %}
         {% endblock %}
-        <div class="welcome-area">
+        <div class="welcome-area-style">
             <div class="area-bg"></div>
             <div class="container">
                 <div class="row flex-v-center" style="padding-top:15em;">
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <div class="welcome-text text-center">
+                        <div class="welcome-text-style text-center">
                             <h2>Service</h2>
                             <ul class="page-location">
-                                <li><a href="#">Home</a></li>
+                                <li><a href="{% url 'index' %}">Home</a></li>
                                 <li>/</li>
-                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="{% url 'terms' %}">Terms & Conditions</a></li>
                             </ul>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
 
     <!--SERVICE AREA-->
     <section class="service-area" style="padding-top: 15%">
-        <div class="service-top-area padding-top">
+        <div class="service-welcome-area-style padding-top">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-lg-6 col-md-offset-3 col-lg-offset-3 col-sm-12 col-xs-12">
