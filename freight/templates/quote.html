@@ -36,28 +36,28 @@
 
     <!--ABOUT AREA-->
     <section class="about-area light-bg section-padding">
-        <div class="container-fluid" style="width:90%;max-height:auto;background-image: url('/static/img/quote_form_bg.jpg');background-repeat:no-repeat;background-size:auto 100%;border-radius:10px 10px 10px 10px;">
-            <div class="row" style="width:50%;float:left;border-radius:10px 0px 0px 10px;">
-                  <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                  <div class="quote-welcome-text-style fadeIn text-center" style="margin-top:50em;">
+        <div class="container-fluid" style="width:90%;max-height:auto;background-image: url('/static/img/quote_form_bg.jpg');background-repeat:no-repeat;background-size:100% 100%;border-radius:10px 10px 10px 10px;">
+            <div class="row" >
+                  <div class="col-lg-6 col-sm-12 col-xs-12">
+                  <div class="quote-welcome-text-style fadeIn text-center" >
                       <h1 style="color:white;">"GET QUOTES"</h1>
                       <h5 style="color:white;">Need any help? quote us</h5>
                   </div>
                   </div>
-              </div>
+              
 
 
-            <div class="row" style="width:50%;height:103em;float:right;border-radius:10px 0px 0px 10px;margin-right:-2.2em;">
-                <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12" >
-                    <div class="quote-form-style-area wow fadeIn" style="border-radius:0px 10px 10px 0px;background:rgba(0,0,0,0.7);">
-                        {% if messages %}
-              <ul class="messages">
-                  {% for message in messages %}
-                  <li{% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %}>
-                  {{ message }}</li>
-                  {% endfor %}
-                  </ul>
-                  {% endif %}
+            <div >
+                <div class="col-lg-6 col-sm-12 col-xs-12">
+                    <div class="quote-form-style-area wow fadeIn" style="border-radius:0px 10px 10px 0px;background:rgba(0,0,0,0.7)">
+                    {% if messages %}
+                    <ul class="messages">
+                    {% for message in messages %}
+                    <li{% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %}>
+                    {{ message }}</li>
+                    {% endfor %}
+                    </ul>
+                    {% endif %}
                         <form class="quote-form-style" method="POST" action="" enctype="multipart/form-data">
                             {% csrf_token %}
                             {% for ele in form %}
@@ -73,6 +73,7 @@
                         </form>
                     </div>
                 </div>
+            </div>
             </div>
           </div>
     </section>
