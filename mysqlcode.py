@@ -22,7 +22,6 @@ for i in result:
     d.append(i[1:])
     index.append(i[0])
 df = pd.DataFrame(data=d,columns=l[1:],index=index)
-df.to_excel('data.xlsx')
 df.to_csv('data2.csv')
 sender_address='cs@pentasixbright.com'
 reciever_address='cs@pentasixbright.com'
