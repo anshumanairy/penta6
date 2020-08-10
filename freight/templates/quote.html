@@ -6,19 +6,19 @@
 <body class="home-one">
 
     <!--SCROLL TO TOP-->
-    <a href="#home" class="scrolltotop"><i class="fa fa-long-arrow-up"></i></a>
+    <a href="#home" class="scroll-to-top"><i class="fa fa-long-arrow-up"></i></a>
 
     <!--START TOP AREA-->
-    <header class="top-area" id="home">
+    <header class="welcome-area-style" id="home">
 
         {% block navbar %}
         {% endblock %}
-        <div class="welcome-area" >
+        <div class="welcome-area-style" >
             <div class="area-bg"></div>
             <div class="container">
                 <div class="row flex-v-center" >
                     <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                        <div class="welcome-text text-center">
+                        <div class="welcome-text-style text-center">
                             <h2>quote</h2>
                             <ul class="page-location">
                                 <li><a href="#">Home</a></li>
@@ -39,7 +39,7 @@
         <div class="container-fluid" style="width:90%;max-height:auto;background-image: url('/static/img/quote_form_bg.jpg');background-repeat:no-repeat;background-size:100% 100%;border-radius:10px 10px 10px 10px;">
             <div class="row" style="width:50%;height:100%;float:left;border-radius:10px 0px 0px 10px;">
                   <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                  <div class="quote-welcome-text fadeIn text-center" style="margin-top:50em;">
+                  <div class="quote-welcome-text-style fadeIn text-center" style="margin-top:50em;">
                       <h1 style="color:white;">"GET QUOTES"</h1>
                       <h5 style="color:white;">Need any help? quote us</h5>
                   </div>
@@ -49,9 +49,16 @@
 
             <div class="row" style="width:50%;height:100%;float:right;border-radius:10px 0px 0px 10px;margin-right:-2.2em;">
                 <div class="col-md-12 col-lg-12 col-sm-12 col-xs-12">
-                    <div class="quote-form-area wow fadeIn" style="border-radius:0px 10px 10px 0px;background:rgba(0,0,0,0.7)">
-
-                        <form class="quote-form" method="POST" action="" enctype="multipart/form-data">
+                    <div class="quote-form-style-area wow fadeIn" style="border-radius:0px 10px 10px 0px;background:rgba(0,0,0,0.7)">
+                        {% if messages %}
+              <ul class="messages">
+                  {% for message in messages %}
+                  <li{% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %}>
+                  {{ message }}</li>
+                  {% endfor %}
+                  </ul>
+                  {% endif %}
+                        <form class="quote-form-style" method="POST" action="" enctype="multipart/form-data">
                             {% csrf_token %}
                             {% for ele in form %}
                             <div class="md-form">
@@ -73,7 +80,19 @@
 
     <!-- Footer Area -->
     {% include 'footer.html' %}
-
+    <script>
+        $(document).ready(function() {
+            // messages timeout for 10 sec
+            setTimeout(function() {
+                $('.messages').fadeOut('slow');
+            }, 3000); // <-- time in milliseconds, 1000 =  1 sec
+    
+            // delete message
+            $('.del-msg').live('click',function(){
+                $('.del-msg').parent().attr('style', 'display:none;');
+            })
+        });
+    </script>
 </body>
 
 {% endblock %}
