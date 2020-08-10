@@ -106,6 +106,14 @@
     .single-service-two {
         padding: 20px 20px 20px 100px;
     }
+    .quote-welcome-text-style{
+      margin-top:-0.5em;
+      padding:10px;
+    }
+    .quote-form-style-area{
+      margin-right:0.5em;
+      margin-bottom:2em;
+    }
 
 }
 
@@ -198,7 +206,13 @@
     .blog-image img {
         width: 100%;
     }
+
+    .quote-welcome-text-style{
+      margin-top:-0.5em;
+      padding:10px;
+    }
     .quote-form-style-area {
+        margin-right:0.5em;
         margin-bottom: 50px;
     }
     .service-content-style {
@@ -364,6 +378,8 @@
         margin-top: 40px;
     }
     .quote-form-style-area {
+        border-radius:10px;
+        margin-right:0.3em;
         margin-bottom: 50px;
     }
     .service-content-style {
@@ -423,8 +439,13 @@
     .footer-social-bookmark {
         margin-top: 19px;
     }
+    .quote-welcome-text-style {
+      padding:15px;
+      margin-top:-1em;
+    }
     .quote-form-style .width-half input {
         width: 48.5%;
+
     }
 
     .about-content h2 {

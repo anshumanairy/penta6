@@ -788,8 +788,13 @@ ul#nav li ul a,
 /* ----------------------------
     4. ABOUT AREA
 ------------------------------ */
+.quote-welcome-text-style{
+  margin-top:50em;
+}
 
 .quote-form-style-area {
+    margin-right:-15px;
+  border-radius:10px;
     background: #eef1f5 none repeat scroll 0 0;
     padding: 30px 20px;
 }
