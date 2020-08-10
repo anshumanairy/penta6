@@ -1,39 +1,4 @@
-/*--------------------------------------------------------------------------------------
-Theme Name: Carries
-Theme URI: http://devitfamily.com
-Author URI: http://devitfamily.com
-Description: 100% Responsive, Highly Customizable, SEO Friendly transportation and Agency Based Template using Twitter Bootstrap Latest, Search Engine Friendly.
-Author: OCREATES
-Version: 1.0
-----------------------------------------------------------------------------------------
-   1. BASE CSS
-    2. TOP AREA
-        2.1. SEARCH AND LANGUAGE
-        2.2 MAINMENU AREA
-        2.3 WELCOME TEXT AREA
-        2.4 WELCOME SLIDER AREA
-    3. BLOG AREA
-    4. ABOUT AREA
-    5. SERVICE AREA
-    6. SERVIE BOTTOM AREA
-    7. PROMO AREA
-    8. PROMO BOTTOM AREA
-    9. TESTMONIAL AREA
-    10. FOOTER AREA
-    11. FAQS AREA
-    12. ABOUT DETAILS CONTENT AREA
-    13. REPORT AREA
-    14. TEAM AERA
-    15. SERVICE TWO
-    16. SERVICE THREE
-    17. CONTACT AREA
-    18. FOOTER AREA
-    19. SCROLL TO TOP
-    20. WELCOME SLIDER AREA
-    21. BLOG PAGE
-    22. SERVICE PAGE
-    23. 404 ERROR PAGE
-----------------------------------------------------------------------------------------*/
+
 
 /*--------------------
    1. BASE CSS
@@ -727,6 +692,7 @@ ul#nav li ul a,
 
 .welcome-slider-area.owl-carousel .owl-nav > div {
     background: #fff none repeat scroll 0 0;
+    color: #f39c12;
     display: inline-block;
     font-size: 30px;
     height: 40px;
@@ -1710,7 +1676,7 @@ ul#nav li ul a,
     content: "";
     height: 100%;
     left: 0;
-    opacity: 0.1;
+    opacity: 0.8;
     position: absolute;
     top: 0;
     width: 100%;
