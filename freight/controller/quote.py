@@ -41,6 +41,6 @@ def quote(request):
         Regards,
         PentaSix Bright
         """
-        send_mail('Welcome to PentaSix Bright', message, sender_email, [obj.email], fail_silently=False)
+        send_mail('Welcome to PentaSix Bright', message, sender_email, [obj.email], fail_silently=True)
         return redirect('/quote')
     return render(request,'quote.html/',context)
